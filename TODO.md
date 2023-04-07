@@ -5,6 +5,6 @@ Tools:
 
 1. Build Navbar
   - First setup the stars background
-  - Use React router (Unless Next.js)
+  - Use React router in seperate Navbar component
   - Start with hamburger menu with dropdown functionality
   - Make responsive
