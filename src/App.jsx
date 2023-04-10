@@ -8,6 +8,8 @@ function App() {
 
   return (
     <>
+
+      {/* Navbar Component goes here */}
       <BrowserRouter>
         <Routes>
           <Route index path="/" />
