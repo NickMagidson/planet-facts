@@ -1,22 +1,20 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Mercury from './components/Mercury';
 import Venus from './components/Venus';
+import Navbar from './components/Navbar';
 
 function App() {
 
 
   return (
     <>
-
-      {/* Navbar Component goes here */}
-      <BrowserRouter>
-        <Routes>
-          <Route index path="/" />
-          <Route path='mercury' element={<Mercury/>} />
-          <Route path='Venus' element={<Venus/>} />
-        </Routes>
-      </BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route index path="/" />
+        <Route path='mercury' element={<Mercury/>} />
+        <Route path='Venus' element={<Venus/>} />
+      </Routes>
     </>
   )
 }

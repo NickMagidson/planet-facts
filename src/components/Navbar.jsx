@@ -1,16 +1,16 @@
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom"
 
+function Navbar() {
+  return (
+    <>
+      <nav>
+        <ul>
+          <li><Link to="mercury">Mercury</Link></li>
+          <li><Link to="venus">Venus</Link></li>
+        </ul>
+      </nav>
+    </>
+  )
+}
 
-// function Navbar() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/"></Route>
-//         <Route>Venus</Route>
-//         <Route></Route>
-//       </Routes>
-//     </BrowserRouter>
-//   )
-// }
-
-// export default Navbar
+export default Navbar

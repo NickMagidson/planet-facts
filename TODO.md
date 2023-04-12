@@ -8,7 +8,8 @@ Tools:
   - Use React router and Navbar component
     - BrowserRouter goes in Main.jsx
     - Get the 2 routes working then do the rest of the pages
-    - Pick CSS framework  
+    - Navbar component gets the Link tags
+    - Pick CSS framework (Bootstrap and Sass)
     - Make hamburger menu to start
   - Start with hamburger menu with dropdown functionality
   - Make responsive
