@@ -1,6 +1,8 @@
+
 body,
 html,
 #root {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     height: 100%;
     background-color: rgb(7, 7, 36);
     background-image: url('./assets/background-stars.svg');
@@ -13,4 +15,14 @@ html,
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+.ms-auto {
+  height: 50px;
+}
+
+.burger {
+  color: aliceblue;
+  width: 50px;
+
 }
