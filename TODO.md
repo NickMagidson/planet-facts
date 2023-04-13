@@ -11,5 +11,5 @@ Tools:
     - Navbar component gets the Link tags
     - Pick CSS framework (Bootstrap and Sass)
     - Make hamburger menu to start
-  - Start with hamburger menu with dropdown functionality
+  - Style burger menu to mockup
   - Make responsive

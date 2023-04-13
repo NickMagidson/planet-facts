@@ -29,6 +29,7 @@ export default function Navbar() {
 
   return (
     <>
+      
       <MDBNavbar>
         <MDBContainer fluid>
           <MDBNavbarToggler

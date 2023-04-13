@@ -23,6 +23,6 @@ html,
 
 .burger {
   color: aliceblue;
-  width: 50px;
-
+  /* width: 50px; */
+  font-size: 26px;
 }
