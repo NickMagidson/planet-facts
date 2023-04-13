@@ -45,7 +45,7 @@ export default function Navbar() {
           </MDBNavbarToggler>
         </MDBContainer>
       </MDBNavbar>
-      {/* <hr style={{bordertop: '3px solid #bbb', margin: 'none'}} ></hr> */}
+      <hr style={{borderTop: '1px solid #bbb', margin: '0'}} ></hr>
 
       <MDBCollapse show={showNavExternal3}>
         <div className='bg-light shadow-3 p-4'>
