@@ -1,8 +1,12 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;500;700&family=League+Spartan:wght@100;300;500;700&display=swap');
+
 
 body,
 html,
 #root {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Antonio', Helvetica, Arial, sans-serif;
     height: 100%;
     background-color: rgb(7, 7, 36);
     background-image: url('./assets/background-stars.svg');
@@ -17,12 +21,22 @@ html,
   height: 100%;
 }
 
-.ms-auto {
-  height: 50px;
+.nav-container {
+  height: 60px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-title {
+  margin: auto 10px;
+  color: rgb(255, 255, 255);
 }
 
 .burger {
   color: aliceblue;
   /* width: 50px; */
-  font-size: 26px;
+  font-size: 24px;
 }

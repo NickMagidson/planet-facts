@@ -29,9 +29,9 @@ export default function Navbar() {
 
   return (
     <>
-      
-      <MDBNavbar>
-        <MDBContainer fluid>
+      <MDBNavbar className='navbar'>
+        <MDBContainer className='nav-container' fluid>
+        <h1 className='nav-title'>THE PLANETS</h1>
           <MDBNavbarToggler
             className='ms-auto'
             type='button'
@@ -45,6 +45,7 @@ export default function Navbar() {
           </MDBNavbarToggler>
         </MDBContainer>
       </MDBNavbar>
+      {/* <hr style={{bordertop: '3px solid #bbb', margin: 'none'}} ></hr> */}
 
       <MDBCollapse show={showNavExternal3}>
         <div className='bg-light shadow-3 p-4'>
