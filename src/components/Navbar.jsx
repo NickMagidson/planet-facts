@@ -1,20 +1,7 @@
-// import { Link } from "react-router-dom"
-
-// function Navbar() {
-//   return (
-//     <>
-//       <nav>
-//         <ul>
-//           <li><Link to="mercury">Mercury</Link></li>
-//           <li><Link to="venus">Venus</Link></li>
-//         </ul>
-//       </nav>
-//     </>
-//   )
-// }
-
-
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { default as Arrow } from '../assets/icon-chevron.svg';
+import { default as MercuryIcon } from '../assets/icon-source.svg';
 import {
   MDBContainer,
   MDBCollapse,
@@ -48,16 +35,23 @@ export default function Navbar() {
       <hr style={{borderTop: '1px solid #bbb', margin: '0'}} ></hr>
 
       <MDBCollapse show={showNavExternal3}>
-        <div className='bg-light shadow-3 p-4'>
-          <MDBBtn block className='border-bottom m-0' color='link'>
-            Link 1
+        <div className='bg-transparent shadow-3 p-4'>
+          <MDBBtn block className='border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
+            <div className='d-inline-flex  justify-content-between align-items-center'>
+              <span className='dot '></span>
+              <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to='/mercury'>Mercury</Link>
+            </div>    
+            <img src={Arrow} />         
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='link'>
-            Link 2
+
+          <MDBBtn block className='border-bottom m-0 d-flex justify-content-between' color='link'>
+            <Link to='/venus'>Venus</Link>
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='link'>
-            Link 2
+
+          <MDBBtn block className='border-bottom m-0 d-flex justify-content-between' color='link'>
+            Link 3
           </MDBBtn>
+
         </div>
       </MDBCollapse>
     </>

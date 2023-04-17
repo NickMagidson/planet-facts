@@ -12,4 +12,4 @@ Tools:
     - Pick CSS framework (Bootstrap and Sass)
     - Make hamburger menu to start
   - Style burger menu to mockup
-  - Make responsive
+  - Pull the titles dynamically from data.json? | try using .map() and have it render each nav link.
