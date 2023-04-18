@@ -41,6 +41,10 @@ html,
   letter-spacing: 1px;
 }
 
+.btn:hover {
+  background-color: #dadada83 !important;
+}
+
 .burger {
   color: aliceblue;
   /* width: 50px; */
