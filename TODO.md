@@ -11,5 +11,6 @@ Tools:
     - ~~Pick CSS framework (Bootstrap and Sass)~~
     - ~~Make hamburger menu to start~~
   - ~~Style burger menu to mockup~~
-  - Pull the titles dynamically from data.json? | try using .map() and have it render each nav link.
-  - Double check routing functionality
+  - ~~Let the Navbar component be DRY~~
+  - ~~Double check routing functionality~~
+  - Make responsive
