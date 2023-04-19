@@ -14,8 +14,11 @@ export default function Navbar() {
   const [showNavExternal3, setShowNavExternal3] = useState(false);
 
   const linkStyles = {
+    display: 'flex',
+    alignItems: 'center',
     opacity: '60%',
-    fontSize: "1rem",
+    fontSize: '1rem',
+    margin: 'auto'
   }
 
   return (
@@ -35,8 +38,7 @@ export default function Navbar() {
             <MDBIcon className='burger' icon='bars' fas />
           </MDBNavbarToggler>
 
-
-          <div id='main-nav-items' className='d-flex align-items- w-auto p-2'>
+          <nav id='main-nav-items' className='d-flex align-items-center w-auto'>
             <Link style={linkStyles} className='nav-link text-light' to='/mercury'>MERCURY</Link>           
             <Link style={linkStyles} className='nav-link text-light' to='/venus'>VENUS</Link>    
             <Link style={linkStyles} className='nav-link text-light' to='/earth'>EARTH</Link>           
@@ -45,9 +47,8 @@ export default function Navbar() {
             <Link style={linkStyles} className='nav-link text-light' to='/saturn'>SATURN</Link>    
             <Link style={linkStyles} className='nav-link text-light' to='/uranus'>URANUS</Link>    
             <Link style={linkStyles} className='nav-link text-light' to='/neptune'>NEPTUNE</Link>    
-          </div>
+          </nav>
         </MDBContainer>
-
       </MDBNavbar>
 
 
@@ -64,7 +65,7 @@ export default function Navbar() {
           </MDBBtn>
           {/****** VENUS ******/}
           <MDBBtn block className='border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
-            <div className='d-inline-flex  justify-content-between align-items-center'>
+            <div className='d-inline-flex justify-content-between align-items-center'>
               <span style={{backgroundColor: '#F7CC7F'}} className='dot'></span>
               <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to='/venus'>Venus</Link>
             </div>    
@@ -72,7 +73,7 @@ export default function Navbar() {
           </MDBBtn>
           {/****** EARTH ******/}
           <MDBBtn block className='border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
-            <div className='d-inline-flex  justify-content-between align-items-center'>
+            <div className='d-inline-flex justify-content-between align-items-center'>
               <span style={{backgroundColor: '#545BFE'}} className='dot'></span>
               <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to='/earth'>Earth</Link>
             </div>    
@@ -80,7 +81,7 @@ export default function Navbar() {
           </MDBBtn>
           {/****** MARS ******/}
           <MDBBtn block className='border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
-            <div className='d-inline-flex  justify-content-between align-items-center'>
+            <div className='d-inline-flex justify-content-between align-items-center'>
               <span style={{backgroundColor: '#FF6A45'}} className='dot'></span>
               <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to='/mars'>Mars</Link>
             </div>    
@@ -88,7 +89,7 @@ export default function Navbar() {
           </MDBBtn>
           {/****** JUPITER ******/}
           <MDBBtn block className='border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
-            <div className='d-inline-flex  justify-content-between align-items-center'>
+            <div className='d-inline-flex justify-content-between align-items-center'>
               <span style={{backgroundColor: '#ECAD7A'}} className='dot'></span>
               <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to='/jupiter'>Jupiter</Link>
             </div>    
@@ -96,7 +97,7 @@ export default function Navbar() {
           </MDBBtn>
           {/****** SATURN ******/}
           <MDBBtn block className='border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
-            <div className='d-inline-flex  justify-content-between align-items-center'>
+            <div className='d-inline-flex justify-content-between align-items-center'>
               <span style={{backgroundColor: '#FCCB6B'}} className='dot'></span>
               <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to='/saturn'>Saturn</Link>
             </div>    
@@ -104,7 +105,7 @@ export default function Navbar() {
           </MDBBtn>
           {/****** URANUS ******/}
           <MDBBtn block className='border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
-            <div className='d-inline-flex  justify-content-between align-items-center'>
+            <div className='d-inline-flex justify-content-between align-items-center'>
               <span style={{backgroundColor: '#65F0D5'}} className='dot'></span>
               <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to='/uranus'>Uranus</Link>
             </div>    
@@ -112,7 +113,7 @@ export default function Navbar() {
           </MDBBtn>
           {/****** NEPTUNE ******/}
           <MDBBtn block className='border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
-            <div className='d-inline-flex  justify-content-between align-items-center'>
+            <div className='d-inline-flex justify-content-between align-items-center'>
               <span style={{backgroundColor: '#497EFA'}} className='dot'></span>
               <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to='/neptune'>Neptune</Link>
             </div>    

@@ -61,12 +61,11 @@ html,
 
 
 
-
+/* MEDIA QUERIES */
 @media (max-width: 760px) {
   #main-nav-items {
     display: none !important;
   }
-
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -78,8 +77,18 @@ html,
 
     height: 150px;
   }
+}
 
-  
+/* Desktops */
+@media (min-width: 1440px) {
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: auto;
+  }
+
 }
 
 /* // Medium devices (tablets, less than 992px)

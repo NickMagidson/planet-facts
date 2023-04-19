@@ -14,3 +14,4 @@ Tools:
   - ~~Let the Navbar component be DRY~~
   - ~~Double check routing functionality~~
   - Make responsive
+  - Refactor
