@@ -17,8 +17,8 @@ Tools:
   - Refactor
 
 2. Build out Mercury page
-  - Extract the info from data.json
-  - Start with just the image (this should work for each planet page)
+  - ~~Extract the info from data.json~~
+  - ~~Start with just the image (this should work for each planet page)~~
   - Pull the rest of the data starting from 'Overview'
   - Create buttons for 1 overview, 2 structure, and 3 surface. 
     - May have to dive into routing. 
