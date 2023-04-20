@@ -9,7 +9,7 @@ html,
     font-family: 'Antonio', Helvetica, Arial, sans-serif;
     height: 100%;
     background-color: rgb(7, 7, 36);
-    background-image: url('./assets/background-stars.svg');
+    background-image: url('../public/assets/background-stars.svg');
     overflow: hidden;
 }
 
@@ -59,7 +59,13 @@ html,
   display: inline-block;
 }
 
+/* PLANET COMPONENT */
 
+.planet-name {
+  font-family: 'Antonio';
+  color: aliceblue;
+  font-size: 40px;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 760px) {

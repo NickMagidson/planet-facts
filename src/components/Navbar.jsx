@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { default as Arrow } from '../assets/icon-chevron.svg';
+import { default as Arrow } from '/assets/icon-chevron.svg';
 import {
   MDBContainer,
   MDBCollapse,
