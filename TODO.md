@@ -18,10 +18,12 @@ Tools:
 2. Build out Mercury page
   - ~~Extract the info from data.json~~
   - ~~Start with just the image (this should work for each planet page)~~
-  - Pull the rest of the data starting from 'Overview'
+  - ~~Pull the rest of the data starting from 'Overview'~~
+  - Finish spaceing between text and images
   - Create buttons for 1 overview, 2 structure, and 3 surface. 
     - May have to dive into routing. 
-    - Possibilty of conditional rendering for 2 and 3
+    - Possibility of conditional rendering for 2 and 3
     - Make it its own component? or It's own routing on each planet component?
+  - Active states for buttons
   - Ideally, you could render each planet info dynamically rather than hard coding each page. The multiple pages are generally a placeholder. .map() may be handy here.
   - Impliment loading spinner (useState() and conditional for rendering)

@@ -64,6 +64,15 @@ html,
 
 /* PLANET COMPONENT */
 
+.img-container {
+  height: 30%;
+}
+
+.planet-btn {
+  font-family: 'League Spartan';
+  letter-spacing: 2px;
+}
+
 .planet-name {
   font-family: 'Antonio';
   color: aliceblue;
@@ -88,7 +97,7 @@ html,
 
 .planet-grid-title {
   font-family: 'League Spartan';
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -97,6 +106,7 @@ html,
   font-family: 'Antonio';
   color: #fff;
   font-weight: 400;
+  font-size: 20px;
 }
 
 

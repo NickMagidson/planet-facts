@@ -18,6 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route index path="/" />
+        {/* <Route path='mercury' element={<SinglePlanet value={planet[0]} />} /> */}
         <Route path='mercury' element={<Mercury/>} />
         <Route path='venus' element={<Venus/>} />
         <Route path='earth' element={<Earth/>} />
