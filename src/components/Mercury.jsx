@@ -5,10 +5,10 @@ import { MDBTypography } from "mdb-react-ui-kit";
 
 console.log(planets)
 
-// const mercury = planets[0];
 
-
+// planet, setPlanet for useState?
 const { overview, structure, geology, name, images, rotation, revolution, radius, temperature } = planets[0]
+
 
 
 const Mercury = () => {
