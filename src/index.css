@@ -4,6 +4,7 @@
 
 /* TODO */
 /* SASSify this file */
+/* Create mixins for flex and fonts */
 
 body,
 html,
@@ -11,7 +12,7 @@ html,
     font-family: 'Antonio', Helvetica, Arial, sans-serif;
     height: 100%;
     background-color: rgb(7, 7, 36);
-    background-image: url('../public/assets/background-stars.svg');
+    background-image: url('/assets/background-stars.svg');
     overflow: hidden;
 }
 
@@ -78,12 +79,26 @@ html,
 
 .planet-source {
   font-family: 'League Spartan';
-  font-weight: 200; 
+  font-weight: 300; 
 }
 
 .planet-source > span {
+  font-weight: 600;
+}
+
+.planet-grid-title {
+  font-family: 'League Spartan';
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.planet-grid-info {
+  font-family: 'Antonio';
+  color: #fff;
   font-weight: 400;
 }
+
 
 /* MEDIA QUERIES */
 @media (max-width: 760px) {

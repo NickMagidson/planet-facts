@@ -14,7 +14,6 @@ Tools:
   - ~~Let the Navbar component be DRY~~
   - ~~Double check routing functionality~~
   - ~~Make responsive~~
-  - Refactor
 
 2. Build out Mercury page
   - ~~Extract the info from data.json~~
@@ -25,3 +24,4 @@ Tools:
     - Possibilty of conditional rendering for 2 and 3
     - Make it its own component? or It's own routing on each planet component?
   - Ideally, you could render each planet info dynamically rather than hard coding each page. The multiple pages are generally a placeholder. .map() may be handy here.
+  - Impliment loading spinner (useState() and conditional for rendering)

@@ -1,9 +1,6 @@
 import planets from "../data.json";
 import source from "/assets/icon-source.svg";
-import { MDBTypography } from "mdb-react-ui-kit";
-
-
-console.log(planets)
+import { MDBCol, MDBContainer, MDBRow, MDBTypography } from "mdb-react-ui-kit";
 
 
 // planet, setPlanet for useState?
@@ -30,7 +27,29 @@ const Mercury = () => {
           <MDBTypography tag='p' className="planet-source text-sm-start">Source: <span>Wikipedia <img src={source} /></span></MDBTypography>
         </div>
 
-        
+        <MDBContainer className="h-100">
+          <MDBRow className="mb-3 p-4 h-0">
+            <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-3 h-10 border border-dark">
+              <MDBTypography tag='p' className="planet-grid-title m-0">ROTATION TIME</MDBTypography>
+              <MDBTypography tag='h3' className="planet-grid-info m-0">{rotation}</MDBTypography>
+            </MDBCol>
+
+            <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-3 h-10 border border-dark gy-3">
+              <MDBTypography tag='p' className="planet-grid-title m-0">REVOLUTION TIME</MDBTypography>
+              <MDBTypography tag='h3' className="planet-grid-info m-0">{revolution}</MDBTypography>
+            </MDBCol>
+
+            <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-3 h-10 border border-dark gy-3">
+              <MDBTypography tag='p' className="planet-grid-title m-0">RADIUS</MDBTypography>
+              <MDBTypography tag='h3' className="planet-grid-info m-0">{radius}</MDBTypography>
+            </MDBCol>
+
+            <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-3 h-10 border border-dark gy-3">
+              <MDBTypography tag='p' className="planet-grid-title m-0">AVERAGE TEMP.</MDBTypography>
+              <MDBTypography tag='h3' className="planet-grid-info m-0">{temperature}</MDBTypography>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
 
       </main>
     </>
