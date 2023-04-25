@@ -1,15 +1,15 @@
 import { useState } from "react";
 import planets from "../data.json";
 import source from "/assets/icon-source.svg";
-import { MDBContainer, MDBCol, MDBRow, MDBTypography, MDBBtnGroup, MDBBtn } from "mdb-react-ui-kit";
+import { MDBCol, MDBRow, MDBTypography, MDBBtnGroup, MDBBtn } from "mdb-react-ui-kit";
 
 
 
 const Mercury = () => {
-  // useEffect for async json datas fetching?
-  const [planet, setPlanet] = useState([])
+  // useEffect for async json data fetching?
+  const [ planet, setPlanet ] = useState([])
+  const [ summary, setSummary ] = useState()
   const { overview, structure, geology, name, images, rotation, revolution, radius, temperature } = planets[0]
-
 
 
   return (
