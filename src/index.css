@@ -109,6 +109,10 @@ html,
   font-size: 20px;
 }
 
+.number {
+  display: none;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 760px) {
@@ -130,6 +134,42 @@ html,
   .nav-link:hover {
     background-color: #dadada83 !important;
   }
+
+  /* .img-container {
+    height: 20%;
+  } */
+
+  .text-section {
+    margin-bottom: 10px;
+  }
+
+  .text-blurb {
+    width: 50%; 
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn-group {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 40%;
+    
+  }
+
+  .planet-btn {
+    text-align: left;
+    border: #ffffff62 1px solid;
+    color: #fff;
+  }
+
+  .number {
+    display: inline;
+  }
+
 
 }
 
