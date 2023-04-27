@@ -37,9 +37,9 @@ const Mercury = () => {
 
           <div className="tablet-info">
             <div className="text-blurb d-flex flex-column align-items-center">
-              <h1 className="planet-name m-0">{name.toUpperCase()}</h1>
+              <h1 className="planet-name m-0 text-center">{name.toUpperCase()}</h1>
               <MDBTypography tag='p' className="planet-desc p-4 text-center">{overview.content}</MDBTypography>
-              <MDBTypography tag='p' className="planet-source text-sm-start">Source: <span>Wikipedia <img src={source} /></span></MDBTypography>
+              <MDBTypography tag='p' className="planet-source text-sm-start text-center">Source: <span>Wikipedia <img src={source} /></span></MDBTypography>
             </div>
 
             <MDBBtnGroup className="btn-group-2 w-100 bg-transparent d-none d-sm-block">
@@ -56,22 +56,22 @@ const Mercury = () => {
           </div>
       
             <MDBRow className="info-grid mb-3 m-0 p-4 h-0">
-              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3">
-                <MDBTypography tag='p' className="planet-grid-title m-0">ROTATION TIME</MDBTypography>
+              <MDBCol size='md' className="grid-block d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3 flex-sm-column">
+                <MDBTypography tag='p' className="planet-grid-title m-0 text-sm-left">ROTATION TIME</MDBTypography>
                 <MDBTypography tag='h3' className="planet-grid-info m-0">{rotation}</MDBTypography>
               </MDBCol>
 
-              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3">
+              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3 flex-sm-column">
                 <MDBTypography tag='p' className="planet-grid-title m-0">REVOLUTION TIME</MDBTypography>
                 <MDBTypography tag='h3' className="planet-grid-info m-0">{revolution}</MDBTypography>
               </MDBCol>
 
-              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3">
+              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3 flex-sm-column">
                 <MDBTypography tag='p' className="planet-grid-title m-0">RADIUS</MDBTypography>
                 <MDBTypography tag='h3' className="planet-grid-info m-0">{radius}</MDBTypography>
               </MDBCol>
 
-              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3">
+              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3 flex-sm-column">
                 <MDBTypography tag='p' className="planet-grid-title m-0">AVERAGE TEMP.</MDBTypography>
                 <MDBTypography tag='h3' className="planet-grid-info m-0">{temperature}</MDBTypography>
               </MDBCol>
