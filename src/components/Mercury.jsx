@@ -35,15 +35,28 @@ const Mercury = () => {
 
         <section className="text-section">
 
-          <div className="text-blurb d-flex flex-column align-items-center">
-            <h1 className="planet-name m-0">{name.toUpperCase()}</h1>
-            <MDBTypography tag='p' className="planet-desc p-4 text-center">{overview.content}</MDBTypography>
-            <MDBTypography tag='p' className="planet-source text-sm-start">Source: <span>Wikipedia <img src={source} /></span></MDBTypography>
-          </div>
+          <div className="tablet-info">
+            <div className="text-blurb d-flex flex-column align-items-center">
+              <h1 className="planet-name m-0">{name.toUpperCase()}</h1>
+              <MDBTypography tag='p' className="planet-desc p-4 text-center">{overview.content}</MDBTypography>
+              <MDBTypography tag='p' className="planet-source text-sm-start">Source: <span>Wikipedia <img src={source} /></span></MDBTypography>
+            </div>
 
+            <MDBBtnGroup className="btn-group-2 w-100 bg-transparent d-none d-sm-block">
+              <MDBBtn className="planet-btn w-100 bg-transparent text-white-50">
+                <MDBTypography tag='p' className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">01</span>    Overview</MDBTypography>
+              </MDBBtn>
+              <MDBBtn className="planet-btn w-100 bg-transparent text-white-50">
+                <MDBTypography tag='p' className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">02</span>   Structure</MDBTypography>
+              </MDBBtn>
+              <MDBBtn className="planet-btn w-100 bg-transparent text-white-50">
+                <MDBTypography tag='p' className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">03</span>   Geology</MDBTypography>
+              </MDBBtn>
+            </MDBBtnGroup>
+          </div>
       
             <MDBRow className="info-grid mb-3 m-0 p-4 h-0">
-              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark">
+              <MDBCol size='md' className="d-flex flex-row justify-content-between align-items-center p-2 border border-dark gy-3">
                 <MDBTypography tag='p' className="planet-grid-title m-0">ROTATION TIME</MDBTypography>
                 <MDBTypography tag='h3' className="planet-grid-info m-0">{rotation}</MDBTypography>
               </MDBCol>

@@ -123,6 +123,13 @@ html,
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 768px) {
+
+  body,
+  html,
+  #root {
+    height: 100%;
+
+  }
   .nav-container {
     display: flex;
     flex-direction: column;
@@ -140,7 +147,7 @@ html,
   } */
 
   .text-section {
-    margin-bottom: 10px;
+    margin-bottom: 20%;
   }
 
   .text-blurb {
@@ -150,14 +157,18 @@ html,
   }
 
   .btn-group {
-    position: absolute;
-    top: 50%;
-    left: 55%;
+    display: none !important;
+  }
+
+  .btn-group-2 {
+    display: inline-block !important;
+    max-width: 45%;
+  }
+
+  .tablet-info {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 40%;
-    
+    flex-direction: row;
+    align-items: center;
   }
 
   .planet-btn {
