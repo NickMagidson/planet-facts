@@ -32,7 +32,7 @@ const Mercury = () => {
 
         <section className="text-section">
           <div className="img-container m-0 w-100 d-flex justify-content-center align-items-center">
-            <img src={images.planet} className="w-25 planet-img" alt="planet" />
+            <img src={images.planet} className="planet-img" alt="planet" />
           </div>
 
         

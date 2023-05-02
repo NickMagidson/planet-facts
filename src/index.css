@@ -64,6 +64,10 @@ html,
 
 /* PLANET COMPONENT */
 
+.planet-img {
+  width: 25%;
+}
+
 .img-container {
   height: 50%;
 }
@@ -168,7 +172,9 @@ html,
 
   .img-container {
     height: 60%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .text-section {
@@ -254,11 +260,44 @@ html,
   }
 
   .img-container {
-    max-width: 50%;
+    max-width: 60%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .planet-img {
+    width: 30%;
+  }
+
+  .text-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
   }
 
   .tablet-info {
     flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .text-blurb {
+    width: 50%;
+  }
+
+  .planet-name {
+    font-size: 70px;
+  }
+
+  .planet-desc {
+    font-size: 16px;
+  }
+
+  .info-grid {
+    width: 80%;
   }
 
 }
