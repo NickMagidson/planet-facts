@@ -19,7 +19,7 @@ Tools:
   - ~~Extract the info from data.json~~
   - ~~Start with just the image (this should work for each planet page)~~
   - ~~Pull the rest of the data starting from 'Overview'~~
-  - Finish spaceing between text and images
+  - ~~Finish spaceing between text and images~~
   - Create buttons for 1 overview, 2 structure, and 3 surface. 
     - May have to dive into routing. 
     - Possibility of conditional rendering for 2 and 3

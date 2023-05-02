@@ -27,14 +27,15 @@ const Mercury = () => {
         </MDBBtnGroup>
     
       <hr className="d-sm-none" style={{borderTop: '1px solid #bbb', margin: '0'}} ></hr>
+      
       <main className="d-flex flex-column align-items-center h-100">
 
-        <div className="img-container m-0 w-100 d-flex justify-content-center align-items-center">
-          <img src={images.planet} className="w-25 planet-img" alt="planet" />
-        </div>
-
         <section className="text-section">
+          <div className="img-container m-0 w-100 d-flex justify-content-center align-items-center">
+            <img src={images.planet} className="w-25 planet-img" alt="planet" />
+          </div>
 
+        
           <div className="tablet-info">
             <div className="text-blurb d-flex flex-column align-items-center justify-content-sm-start">
               <h1 className="planet-name m-0 ">{name.toUpperCase()}</h1>
@@ -54,8 +55,9 @@ const Mercury = () => {
               </MDBBtn>
             </MDBBtnGroup>
           </div>
-      
-            <MDBRow className="info-grid mb-3 m-0 p-4 h-0">
+        </section>
+
+            <MDBRow className="info-grid p-4 h-0">
               <MDBCol size='md' className="grid-block p-2 border border-dark gy-3">
                 <MDBTypography tag='p' className="planet-grid-title m-0 w-100">ROTATION TIME</MDBTypography>
                 <MDBTypography tag='h3' className="planet-grid-info m-0 w-100">{rotation}</MDBTypography>
@@ -77,8 +79,6 @@ const Mercury = () => {
               </MDBCol>
             </MDBRow>
          
-        </section>
-
       </main>
     </>
   ) 
