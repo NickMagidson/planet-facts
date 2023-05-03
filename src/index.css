@@ -178,6 +178,11 @@ html,
     align-items: center;
   }
 
+  /* .planet-img {
+    min-width: 20%;
+    max-width: 40%;
+  } */
+
   .text-section {
     height: 66%;
   }

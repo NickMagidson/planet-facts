@@ -10,7 +10,7 @@ import {
   MDBBtn,
 } from 'mdb-react-ui-kit';
 
-export default function Navbar(planet, setPlanet) {
+export default function Navbar() {
   const [showNavExternal3, setShowNavExternal3] = useState(false);
 
   const linkStyles = {
