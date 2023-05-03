@@ -9,7 +9,7 @@ const Mercury = () => {
   // useEffect for async json data fetching?
 
   const { overview, structure, geology, name, images, rotation, revolution, radius, temperature } = planets[0]
-  
+
   const [ summary, setSummary ] = useState(overview.content)
 
   const handleSummary = (content) => {
