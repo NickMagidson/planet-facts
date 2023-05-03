@@ -260,7 +260,7 @@ html,
   }
 
   .img-container {
-    max-width: 60%;
+    max-width: 55%;
     height: 100%;
     margin: auto;
   }
@@ -278,7 +278,7 @@ html,
 
   .tablet-info {
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     height: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -298,6 +298,15 @@ html,
 
   .info-grid {
     width: 80%;
+    height: auto;
+  }
+
+  .planet-grid-info{
+    font-size: 32px;
+  }
+
+  .planet-grid-title {
+    font-size: 14px;
   }
 
 }
