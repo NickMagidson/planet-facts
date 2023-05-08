@@ -1,21 +1,21 @@
 import { useState } from "react";
 import planets from "../data.json";
 import source from "/assets/icon-source.svg";
-import { MDBCol, MDBRow, MDBBtnGroup, MDBBtn } from "mdb-react-ui-kit";
+import { MDBCol, MDBRow, MDBBtnGroup, MDBBtn } from "mdb-react-ui-kit"; 
+import '../index.scss'
 
+const Mercury = () => {
 
-
-const Mercury = ({setShowNavExternal3}) => {
-  
   const [planet, setPlanet] = useState(planets)
   const { overview, structure, geology, name, images, rotation, revolution, radius, temperature } = planet[0]
 
   const [ summary, setSummary ] = useState(overview.content)
   const handleSummary = (content) => {
     setSummary(content)
-    setShowNavExternal3(false)
+    // trigger animation
   }
-  
+
+
   return (
     <>
         {/* BUTTONS FOR SUMMARY CHANGES */}

@@ -12,6 +12,41 @@
   align-items: center;
 }
 
+@mixin fade-in {
+  animation: planetFade 2s ease 0s 1 normal forwards;
+
+  @keyframes planetFade {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin slide-in {
+  animation-name: slideIn;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
 body,
 html,
 #root {
@@ -69,6 +104,8 @@ html,
 /* PLANET COMPONENT */
 
 .planet-img {
+  @include fade-in;
+
   min-width: auto;
   max-width: 50%;
 }
@@ -83,6 +120,8 @@ html,
 }
 
 .planet-name {
+  @include fade-in;
+
   color: aliceblue;
   font-size: 40px;
   width: 88%;
@@ -90,6 +129,8 @@ html,
 }
 
 .planet-desc {
+  @include fade-in;
+
   font-family: 'League Spartan';
   font-weight: 200;
   color: #fff;
@@ -98,6 +139,8 @@ html,
 }
 
 .planet-source {
+  @include fade-in;
+
   font-family: 'League Spartan';
   font-weight: 300; 
   width: 88%;
@@ -127,13 +170,24 @@ html,
   display: none;
 }
 
+.info-grid {
+  @include fade-in;
+}
+
 .grid-block {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  @include slide-in;
 }
+
+.grid-block:nth-child(1) {animation-delay: .1s;}
+.grid-block:nth-child(2) {animation-delay: .2s;}
+.grid-block:nth-child(3) {animation-delay: .3s;}
+.grid-block:nth-child(4) {animation-delay: .4s;}
+
 
 .text-section {
   height: 55%;
