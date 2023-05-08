@@ -5,7 +5,7 @@ import { MDBCol, MDBRow, MDBBtnGroup, MDBBtn } from "mdb-react-ui-kit";
 
 
 
-const Mercury = () => {
+const Mercury = ({setShowNavExternal3}) => {
   
   const [planet, setPlanet] = useState(planets)
   const { overview, structure, geology, name, images, rotation, revolution, radius, temperature } = planet[0]
@@ -13,10 +13,12 @@ const Mercury = () => {
   const [ summary, setSummary ] = useState(overview.content)
   const handleSummary = (content) => {
     setSummary(content)
+    setShowNavExternal3(false)
   }
   
   return (
     <>
+        {/* BUTTONS FOR SUMMARY CHANGES */}
         <MDBBtnGroup className=" btn-group w-100 bg-transparent">
           <MDBBtn className="planet-btn w-100 bg-transparent text-white-50" onClick={() => handleSummary(overview.content)}>
             <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">01</span>    Overview</p>
@@ -28,17 +30,17 @@ const Mercury = () => {
             <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">03</span>   Geology</p>
           </MDBBtn>
         </MDBBtnGroup>
-    
       <hr className="d-sm-none" style={{borderTop: '1px solid #bbb', margin: '0'}} ></hr>
       
+
       <main className="d-flex flex-column align-items-center h-100">
 
         <section className="text-section">
+
+          {/* IMG CONTAINER */}
           <div className="img-container m-0 w-100 d-flex justify-content-center align-items-center">
             <img src={images.planet} className="planet-img" alt="planet" />
           </div>
-
-        
           <div className="tablet-info">
             <div className="text-blurb d-flex flex-column align-items-center justify-content-sm-start">
               <h1 className="planet-name m-0 ">{name.toUpperCase()}</h1>
@@ -46,6 +48,7 @@ const Mercury = () => {
               <p className="planet-source ">Source: <span>Wikipedia <img src={source} /></span></p>
             </div>
 
+            {/* SUMMARY BUTTONS FOR TABLET RESPONSIVENESS */}
             <MDBBtnGroup className="btn-group-2 w-100 bg-transparent d-none d-sm-block">
               <MDBBtn className="planet-btn w-100 bg-transparent text-white-50">
                 <p tag='p' className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">01</span>    Overview</p>
@@ -57,6 +60,7 @@ const Mercury = () => {
                 <p tag='p' className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">03</span>   Geology</p>
               </MDBBtn>
             </MDBBtnGroup>
+            
           </div>
         </section>
 

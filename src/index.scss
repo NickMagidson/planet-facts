@@ -6,6 +6,12 @@
 /* SASSify this file */
 /* Create mixins for flex and fonts */
 
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body,
 html,
 #root {
@@ -17,10 +23,8 @@ html,
 }
 
 .App {
-  display: flex;
+  @include flex-center;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100%;
 }
 
