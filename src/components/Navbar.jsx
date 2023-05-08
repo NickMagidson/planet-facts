@@ -41,18 +41,16 @@ export default function Navbar() {
 
           {/* 2ND NAVBAR FOR BIGGER SCREENS */}
           <nav id='main-nav-items' className='d-flex align-items-center w-auto'>
-
-          {planets.map(planetName => {
-            return <Link style={linkStyles} className='nav-link text-light' to={'/' + planetName.name}>{planetName.name.toUpperCase()}</Link>
-          })}
+            {planets.map(planetName => {
+              return <Link style={linkStyles} className='nav-link text-light' to={'/' + planetName.name}>{planetName.name.toUpperCase()}</Link>
+            })}
           </nav>
         </MDBContainer>
       </MDBNavbar>
 
-
+      
       <MDBCollapse className='navbar-expand-md' show={showNavExternal3}>
-        <div className='bg-transparent shadow-3 p-4'>
-
+        <nav className='bg-transparent shadow-3 p-4'>
           {planets.map(planetName => {
             return (
               <MDBBtn block className='btn border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
@@ -64,7 +62,7 @@ export default function Navbar() {
               </MDBBtn>
             )
           })}
-        </div>
+        </nav>
       </MDBCollapse>
       <hr style={{borderTop: '1px solid #bbb', margin: '0'}} ></hr>
     </>
