@@ -37,3 +37,4 @@ Tools:
 4. Possible expansions
   - A home page of some sort  
   - Add NASA photo of the day API. Involves one more nav link and Api fetching
+  - implement date picker component
