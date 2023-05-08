@@ -9,6 +9,7 @@ import {
   MDBIcon,
   MDBBtn,
 } from 'mdb-react-ui-kit';
+import planets from '../data.json';
 
 export default function Navbar() {
   const [showNavExternal3, setShowNavExternal3] = useState(false);
@@ -38,15 +39,20 @@ export default function Navbar() {
             <MDBIcon className='burger' icon='bars' fas />
           </MDBNavbarToggler>
 
+          {/* 2ND NAVBAR FOR BIGGER SCREENS */}
           <nav id='main-nav-items' className='d-flex align-items-center w-auto'>
-            <Link style={linkStyles} className='nav-link text-light' to='/mercury'>MERCURY</Link>           
+
+          {planets.map(planetName => {
+            return <Link style={linkStyles} className='nav-link text-light' to={'/' + planetName.name}>{planetName.name.toUpperCase()}</Link>
+          })}
+            {/* <Link style={linkStyles} className='nav-link text-light' to='/mercury'>MERCURY</Link>           
             <Link style={linkStyles} className='nav-link text-light' to='/venus'>VENUS</Link>    
             <Link style={linkStyles} className='nav-link text-light' to='/earth'>EARTH</Link>           
             <Link style={linkStyles} className='nav-link text-light' to='/mars'>MARS</Link>    
             <Link style={linkStyles} className='nav-link text-light' to='/jupiter'>JUPITER</Link>                 
             <Link style={linkStyles} className='nav-link text-light' to='/saturn'>SATURN</Link>    
             <Link style={linkStyles} className='nav-link text-light' to='/uranus'>URANUS</Link>    
-            <Link style={linkStyles} className='nav-link text-light' to='/neptune'>NEPTUNE</Link>    
+            <Link style={linkStyles} className='nav-link text-light' to='/neptune'>NEPTUNE</Link>     */}
           </nav>
         </MDBContainer>
       </MDBNavbar>

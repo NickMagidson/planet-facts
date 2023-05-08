@@ -54,7 +54,7 @@ html,
 
 .burger {
   color: aliceblue;
-  /* width: 50px; */
+
   font-size: 24px;
 }
 
@@ -83,7 +83,6 @@ html,
 }
 
 .planet-name {
-  font-family: 'Antonio';
   color: aliceblue;
   font-size: 40px;
   width: 88%;
@@ -118,7 +117,6 @@ html,
 }
 
 .planet-grid-info {
-  font-family: 'Antonio';
   color: #fff;
   font-weight: 400;
   font-size: 20px;
@@ -177,9 +175,7 @@ html,
 
   .img-container {
     height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
   }
 
   /* .planet-img {
@@ -258,10 +254,8 @@ html,
 /* Desktops */
 @media (min-width: 1440px) {
   .nav-container {
-    display: flex;
+    @include flex-center;
     flex-direction: row;
-    align-items: center;
-
     height: auto;
   }
 
