@@ -38,8 +38,8 @@ export default function Navbar() {
 
           {/* 2ND NAVBAR FOR BIGGER SCREENS */}
           <nav id='main-nav-items' className='d-flex align-items-center w-auto'>
-            {planets.map( planetName => {
-              return <Link style={linkStyles} className='nav-link text-light' to={'/' + planetName.name}>{planetName.name.toUpperCase()}</Link>
+            {planets.map( (planetName, index) => {
+              return <Link key={index} style={linkStyles} className='nav-link text-light' to={'/' + planetName.name}>{planetName.name.toUpperCase()}</Link>
             })}
           </nav>
         </MDBContainer>
@@ -48,9 +48,9 @@ export default function Navbar() {
       {/* MOBILE NAVBAR MENU */}
       <MDBCollapse className='navbar-expand-md' show={showNavExternal3}>
         <nav className='bg-transparent shadow-3 p-4'>
-          {planets.map( planetName => {
+          {planets.map( (planetName, index) => {
             return (
-              <MDBBtn block className='btn border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
+              <MDBBtn block key={index} className='btn border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
                 <div className='d-inline-flex justify-content-between align-items-center'>
                   <span style={{ backgroundColor: planetName.color}} className='dot'></span>
                   <Link 
