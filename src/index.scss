@@ -214,8 +214,12 @@ html,
   html,
   #root {
     height: 100%;
-
   }
+
+  #main-nav-items {
+    @include fade-in;
+  }
+
   .nav-container {
     display: flex;
     flex-direction: column;
@@ -275,6 +279,8 @@ html,
   .btn-group-2 {
     display: inline-block !important;
     max-width: 45%;
+    @include fade-in;
+    animation-duration: 3s;
   }
 
   .tablet-info {
@@ -288,10 +294,16 @@ html,
     text-align: left;
     border: #ffffff62 1px solid;
     color: #fff;
+    @include slide-in;
+    animation-delay: .1s;
   }
+
+  .planet-btn:nth-child(1) {animation-delay: .2s;}
+  .planet-btn:nth-child(2) {animation-delay: .3s;}
 
   .number {
     display: inline;
+    margin-right: 10px;
   }
 
   .info-grid {

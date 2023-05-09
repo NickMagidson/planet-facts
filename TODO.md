@@ -31,6 +31,7 @@ Tools:
     - ~~Make summary changes do a fade in~~
     - ~~Slide ins for grid info~~
   - ~~Make mobile menu close when new route is opened~~
+  - ~~Animations for tablet buttons~~
 
 3. Dynamically render all planet pages
   - Finish the project with multiple pages and slap onto portfolio. No need to wait
