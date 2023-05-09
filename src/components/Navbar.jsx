@@ -1,18 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { default as Arrow } from '/assets/icon-chevron.svg';
-import {
-  MDBContainer,
-  MDBCollapse,
-  MDBNavbar,
-  MDBNavbarToggler,
-  MDBIcon,
-  MDBBtn,
-} from 'mdb-react-ui-kit';
+import { MDBContainer, MDBCollapse, MDBNavbar, MDBNavbarToggler, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 import planets from '../data.json';
 
 export default function Navbar() {
   const [showNavExternal3, setShowNavExternal3] = useState(false);
+
+  const handleCollapse = () => {
+    setShowNavExternal3(!setShowNavExternal3)
+  }
 
   const linkStyles = {
     display: 'flex',
@@ -41,22 +38,27 @@ export default function Navbar() {
 
           {/* 2ND NAVBAR FOR BIGGER SCREENS */}
           <nav id='main-nav-items' className='d-flex align-items-center w-auto'>
-            {planets.map(planetName => {
+            {planets.map( planetName => {
               return <Link style={linkStyles} className='nav-link text-light' to={'/' + planetName.name}>{planetName.name.toUpperCase()}</Link>
             })}
           </nav>
         </MDBContainer>
       </MDBNavbar>
 
-      
+      {/* MOBILE NAVBAR MENU */}
       <MDBCollapse className='navbar-expand-md' show={showNavExternal3}>
         <nav className='bg-transparent shadow-3 p-4'>
-          {planets.map(planetName => {
+          {planets.map( planetName => {
             return (
               <MDBBtn block className='btn border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
                 <div className='d-inline-flex justify-content-between align-items-center'>
                   <span style={{ backgroundColor: planetName.color}} className='dot'></span>
-                  <Link style={{ fontSize: "1.2rem" }} className='nav-link text-light' to={'/' + planetName.name}>{planetName.name.toUpperCase()}</Link>
+                  <Link 
+                    style={{ fontSize: "1.2rem" }} 
+                    onClick={handleCollapse} 
+                    className='nav-link text-light' 
+                    to={'/' + planetName.name}> {planetName.name.toUpperCase()} 
+                  </Link>
                 </div>    
                 <img src={Arrow} />         
               </MDBBtn>

@@ -12,7 +12,7 @@ const Mercury = () => {
   const [ summary, setSummary ] = useState(overview.content)
   const handleSummary = (content) => {
     setSummary(content)
-    // trigger animation
+    // trigger animation?
   }
 
 

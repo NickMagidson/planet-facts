@@ -13,7 +13,13 @@
 }
 
 @mixin fade-in {
-  animation: planetFade 2s ease 0s 1 normal forwards;
+  // animation: planetFade 2s ease 0s 1 normal forwards;
+  animation-name: planetFade;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 
   @keyframes planetFade {
     0% {
@@ -105,7 +111,7 @@ html,
 
 .planet-img {
   @include fade-in;
-
+  
   min-width: auto;
   max-width: 50%;
 }
@@ -121,7 +127,7 @@ html,
 
 .planet-name {
   @include fade-in;
-
+  animation-duration: 4s;
   color: aliceblue;
   font-size: 40px;
   width: 88%;
@@ -130,7 +136,7 @@ html,
 
 .planet-desc {
   @include fade-in;
-
+  animation-duration: 5s;
   font-family: 'League Spartan';
   font-weight: 200;
   color: #fff;
@@ -140,7 +146,7 @@ html,
 
 .planet-source {
   @include fade-in;
-
+  animation-duration: 6s;
   font-family: 'League Spartan';
   font-weight: 300; 
   width: 88%;

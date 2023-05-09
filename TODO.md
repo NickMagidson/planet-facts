@@ -25,8 +25,11 @@ Tools:
     - ~~Possibility of conditional rendering for 2 and 3~~
     - ~~Make it its own component? or It's own routing on each planet component?~~
   - ~~Ideally, you could render each planet info dynamically rather than hard coding each page. The multiple pages are generally a placeholder. .map() may be handy here.~~
+  - Add unique keys
   - Active states for buttons
   - General animations!
+    - Make summary changes do a fade in
+  - Make mobile menu close when new route is opened
   - Impliment loading spinner (useState() and conditional for rendering)
 
 3. Dynamically render all planet pages
