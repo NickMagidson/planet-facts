@@ -10,6 +10,8 @@ const Mercury = () => {
   const { overview, structure, geology, name, images, rotation, revolution, radius, temperature } = planet[0]
 
   const [ summary, setSummary ] = useState(overview.content)
+  // const [ image, setImage ] = useState(image.planet);
+
   const handleSummary = (content) => {
     setSummary(content)
   }

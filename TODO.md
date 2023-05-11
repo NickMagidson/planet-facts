@@ -49,3 +49,4 @@ Low Priority
   - Fade in for summary changes
   - Impliment loading spinner (useState() and conditional for rendering)?
   - Fix active states for buttons on tablet
+  - Render 2 more of the planet images
