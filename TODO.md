@@ -34,7 +34,8 @@ Tools:
   - ~~Animations for tablet buttons~~
 
 3. Dynamically render all planet pages
-  - Finish the project with multiple pages and slap onto portfolio. No need to wait
+  - ~~Finish the project with multiple pages and slap onto portfolio. No need to wait~~
+  - Deploy
   - Change Mercury component into SinglePlant
   - Then adjust the routing in App.jsx
 
