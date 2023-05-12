@@ -37,7 +37,7 @@ Tools:
   - ~~Finish the project with multiple pages and slap onto portfolio. No need to wait~~
   - Deploy project using gh-pages
   - Error: Images are not rendering
-  - Error: everytime I reafresh on a route, it 404s
+  - Error: everytime I refresh on a route, it 404s
 
 4. Dynamically render all planet pages
   - Change Mercury component into SinglePlant
