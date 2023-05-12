@@ -33,13 +33,17 @@ Tools:
   - ~~Make mobile menu close when new route is opened~~
   - ~~Animations for tablet buttons~~
 
-3. Dynamically render all planet pages
+3. Deploy
   - ~~Finish the project with multiple pages and slap onto portfolio. No need to wait~~
-  - Deploy
+  - Deploy project using gh-pages
+  - Error: Images are not rendering
+  - Error: everytime I reafresh on a route, it 404s
+
+4. Dynamically render all planet pages
   - Change Mercury component into SinglePlant
   - Then adjust the routing in App.jsx
 
-4. Possible expansions
+5. Possible expansions
   - A home page of some sort  
   - Add NASA photo of the day API. Involves one more nav link and Api fetching
   - implement date picker component
