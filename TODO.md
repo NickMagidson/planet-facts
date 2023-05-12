@@ -39,14 +39,23 @@ Tools:
   - ~~Error: Images are not rendering~~
   - ~~Error: everytime I refresh on a route, it 404s~~
 
-4. Dynamically render all planet pages
+4. Fixes
+  - Responsive edits
+    - Planet image top margin for mobile
+    - Info grid top margin fix
+    - Allow mobile button to function using right thumb
+    - Planet img size responsiveness
+
+5. Dynamically render all planet pages
   - Change Mercury component into SinglePlant
   - Then adjust the routing in App.jsx
 
-5. Possible expansions
-  - A home page of some sort  
+
+Possible expansions
+  - A home page of some sort
   - Add NASA photo of the day API. Involves one more nav link and Api fetching
   - implement date picker component
+  - Container?
 
 
 Low Priority
