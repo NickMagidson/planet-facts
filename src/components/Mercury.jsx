@@ -32,7 +32,7 @@ const Mercury = () => {
         </MDBBtnGroup>
       <hr className="d-sm-none" style={{borderTop: '1px solid #bbb', margin: '0'}} ></hr>
       
-      <main className="d-flex flex-column align-items-center">
+      <main className="d-flex flex-column align-items-center h-100">
         <section className="text-section">
           {/* IMG CONTAINER */}
           <div className="img-container m-0 w-100 d-flex justify-content-center align-items-center">
