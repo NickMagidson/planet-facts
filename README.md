@@ -1,7 +1,7 @@
 ![Planets](./public/assets/planets.PNG)
 # Planet Facts
 
-A Solar system explorer built with React, Sass, Bootstrap and dynamic rendering
+A Solar system explorer built with React, Sass, Bootstrap and dynamic rendering.
 <br />
 [Live Preview](https://nickmagidson.github.io/planet-facts/)
 
