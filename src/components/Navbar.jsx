@@ -51,7 +51,7 @@ export default function Navbar() {
           {planets.map( (planetName, index) => {
             return (
               <MDBBtn block key={index} className='btn border-bottom border-dark m-0 p-2 d-flex align-items-center justify-content-between' color='link'>
-                <div className='d-inline-flex justify-content-between align-items-center'>
+                <div className='d-inline-flex justify-content-left align-items-center w-100 text-left'>
                   <span style={{ backgroundColor: planetName.color}} className='dot'></span>
                   <Link 
                     style={{ fontSize: "1.2rem" }} 
