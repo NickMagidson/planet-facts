@@ -44,7 +44,7 @@ Tools:
     - Planet image top margin for mobile
     - Info grid top margin fix
     - Allow mobile button to function using right thumb
-    - Planet img size responsiveness
+    - Planet img size responsiveness (max width to 40%?)
 
 5. Dynamically render all planet pages
   - Change Mercury component into SinglePlant
@@ -52,7 +52,7 @@ Tools:
 
 
 Possible expansions
-  - A home page of some sort
+  - A home page of some sort (rotating planets/solar system?)
   - Add NASA photo of the day API. Involves one more nav link and Api fetching
   - implement date picker component
   - Container?
