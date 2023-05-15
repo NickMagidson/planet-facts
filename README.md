@@ -1,7 +1,7 @@
 ![Planets](./public/assets/planets.PNG)
 # Planet Facts
 
-A crypto industry app built with React, Redux and Ant Design.
+A Solar system explorer built with React, Sass, Bootstrap and dynamic rendering
 <br />
 [Live Preview](https://nickmagidson.github.io/planet-facts/)
 
