@@ -41,10 +41,11 @@ Tools:
 
 4. Fixes
   - Responsive edits
-    - Planet image top margin for mobile
-    - Info grid top margin fix
-    - Allow mobile button to function using right thumb
-    - Planet img size responsiveness (max width to 40%?)
+    - ~~Planet image top margin for mobile~~
+    - ~~Info grid margin fix~~
+    - ~~Allow mobile button to function using right thumb~~
+    - ~~Allow scroll overflow on certain breakpoints?~~
+    - ~~Planet img size responsiveness (max width to 40%?)~~
 
 5. Dynamically render all planet pages
   - Change Mercury component into SinglePlant

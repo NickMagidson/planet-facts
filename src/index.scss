@@ -60,8 +60,7 @@ html,
     height: 100%;
     background-color: rgb(7, 7, 36);
     background-image: url('/assets/background-stars.svg');
-    overflow: hidden;
-  
+    overflow-x: hidden;
 }
 
 .App {
@@ -117,11 +116,12 @@ html,
   @include fade-in;
   
   min-width: auto;
-  max-width: 50%;
+  max-width: 38%;
 }
 
 .img-container {
   height: 50%;
+  margin-top: 30%;
 }
 
 .planet-btn {
@@ -180,8 +180,13 @@ html,
   display: none;
 }
 
+.text-blurb {
+margin: auto
+}
+
 .info-grid {
   @include fade-in;
+
 }
 
 .grid-block {
@@ -200,7 +205,7 @@ html,
 
 
 .text-section {
-  height: 55%;
+  height: 65%;
 }
 
 
@@ -219,6 +224,8 @@ html,
   #root {
     height: 100%;
   }
+
+
 
   #main-nav-items {
     @include fade-in;
@@ -338,6 +345,13 @@ html,
 
 /* Desktops */
 @media (min-width: 1440px) {
+
+  body,
+  html,
+  #root {
+    overflow: hidden
+  }
+
   .nav-container {
     @include flex-center;
     flex-direction: row;
@@ -397,7 +411,6 @@ html,
   .planet-grid-title {
     font-size: 14px;
   }
-
 }
 
 /* // Medium devices (tablets, less than 992px)
