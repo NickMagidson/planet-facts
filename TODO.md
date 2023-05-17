@@ -47,17 +47,25 @@ Tools:
     - ~~Allow scroll overflow on certain breakpoints?~~
     - ~~Planet img size responsiveness (max width to 40%?)~~
 
-5. Dynamically render all planet pages
+5. Homepage
+  - ~~Create Homepage and adjust routing~~
+  - Create solar system component
+    - Fix Sass deprecation warnings
+    - Fix Sun appearence
+    - Scale size for breakpoints
+    - Replace planets with asset planet SVSs
+    - Turn into page selections
+    - Hover states and fade-ins
+
+6. Dynamically render all planet pages
   - Change Mercury component into SinglePlant
   - Then adjust the routing in App.jsx
 
 
 Possible expansions
-  - A home page of some sort (rotating planets/solar system?)
   - Add NASA photo of the day API. Involves one more nav link and Api fetching
-  - implement date picker component
+  - implement date picker component for NASA API
   - Container?
-
 
 Low Priority
   - Fix active states for buttons on tablet

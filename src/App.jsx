@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Homepage from './components/Homepage';
 import { 
   Mercury,
   Venus,
@@ -17,7 +18,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route index path="/" />
+        <Route index path="/" element={<Homepage />} />
         {/* <Route path='mercury' element={<SinglePlanet planet={planet[0]} />} /> */}
         <Route path='mercury' element={<Mercury />} />
         <Route path='venus' element={<Venus/>} />
