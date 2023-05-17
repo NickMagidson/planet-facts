@@ -203,15 +203,15 @@ body{
 .earth{
   height: $earth-orb;
   width: $earth-orb;
-  margin-top: -$earth-orb / 2;
-  margin-left: -$earth-orb / 2;
+  margin-top: calc(-1 * $earth-orb / 2);
+  margin-left: calc(-1 * $earth-orb / 2);
   animation: orb revolution(365.2563) linear infinite;
   &:before{
     height:$earth-pl;
     width:$earth-pl;
     background:#11abe9;
-    margin-top: -$earth-pl / 2;
-    margin-left: -$earth-pl / 2;
+    margin-top: calc(-1 * $earth-pl / 2);
+    margin-left: calc(-1 * $earth-pl / 2);
   }
   &:after{
     position: absolute;
@@ -230,44 +230,44 @@ body{
 .mars{
   height: $mars-orb;
   width: $mars-orb;
-  margin-top: -$mars-orb / 2;
-  margin-left: -$mars-orb / 2;
+  margin-top: calc(-1 * $mars-orb / 2);
+  margin-left: calc(-1 * $mars-orb / 2);
   animation: orb revolution(687) linear infinite;
   &:before{
     height:$mars-pl;
     width:$mars-pl;
     background:#cf3921;
-    margin-top: -$mars-pl / 2;
-    margin-left: -$mars-pl / 2;
+    margin-top: calc(-1 * $mars-pl / 2);
+    margin-left: calc(-1 * $mars-pl / 2);
   }
 }
 
 .jupiter{
   height: $jupiter-orb;
   width: $jupiter-orb;
-  margin-top: -$jupiter-orb / 2;
-  margin-left: -$jupiter-orb / 2;
+  margin-top: calc(-1 * $jupiter-orb / 2);
+  margin-left: calc(-1 * $jupiter-orb / 2);
   animation: orb revolution(4331) linear infinite;
   &:before{
     height:$jupiter-pl;
     width:$jupiter-pl;
     background:#c76e2a;
-    margin-top: -$jupiter-pl / 2;
-    margin-left: -$jupiter-pl / 2;
+    margin-top: calc(-1 * $jupiter-pl / 2);
+    margin-left: calc(-1 * $jupiter-pl / 2);
   }
 }
 .saturn{
   height: $saturn-orb;
   width: $saturn-orb;
-  margin-top: -$saturn-orb / 2;
-  margin-left: -$saturn-orb / 2;
+  margin-top: calc(-1 * $saturn-orb / 2);
+  margin-left: calc(-1 * $saturn-orb / 2);
   animation: orb revolution(10747) linear infinite;
   &:before{
     height:$saturn-pl;
     width:$saturn-pl;
     background:#e7c194;
-    margin-top: -$saturn-pl / 2;
-    margin-left: -$saturn-pl / 2;
+    margin-top: calc(-1 * $saturn-pl / 2);
+    margin-left: calc(-1 * $saturn-pl / 2);
   }
   &:after{
     position: absolute;
@@ -290,30 +290,30 @@ body{
 .uranus{
   height: $uranus-orb;
   width: $uranus-orb;
-  margin-top: -$uranus-orb / 2;
-  margin-left: -$uranus-orb / 2;
+  margin-top: calc(-1 * $uranus-orb / 2);
+  margin-left: calc(-1 * $uranus-orb / 2);
   animation: orb revolution(30589) linear infinite;
   &:before{
     height:$uranus-pl;
     width:$uranus-pl;
     background:#b5e3e3;
-    margin-top: -$uranus-pl / 2;
-    margin-left: -$uranus-pl / 2;
+    margin-top: calc(-1 * $uranus-pl / 2);
+    margin-left: calc(-1 * $uranus-pl / 2);
   }
 }
 
 .neptune{
   height: $neptune-orb;
   width: $neptune-orb;
-  margin-top: -$neptune-orb / 2;
-  margin-left: -$neptune-orb / 2;
+  margin-top: calc(-1 * $neptune-orb / 2);
+  margin-left: calc(-1 * $neptune-orb / 2);
   animation: orb revolution(59802) linear infinite;
   &:before{
     height:$neptune-pl;
     width:$neptune-pl;
     background:#175e9e;
-    margin-top: -$neptune-pl / 2;
-    margin-left: -$neptune-pl / 2;
+    margin-top: calc(-1 * $neptune-pl / 2);
+    margin-left: calc(-1 * $neptune-pl / 2);
   }
 }
 
@@ -322,16 +322,16 @@ body{
   border-color: transparent !important;
   height: $asteroids-belt-orb;
   width: $asteroids-belt-orb;
-  margin-top: -$asteroids-belt-orb / 2;
-  margin-left: -$asteroids-belt-orb / 2;
+  margin-top: calc(-1 * $asteroids-belt-orb / 2);
+  margin-left: calc(-1 * $asteroids-belt-orb / 2);
   animation: orb revolution(2191) linear infinite;
   overflow:hidden;
   &:before{
     top:50%;
     height:$asteroids-belt-pl;
     width:$asteroids-belt-pl;
-    margin-left: -$asteroids-belt-pl / 2;
-    margin-top: -$asteroids-belt-pl / 2;
+    margin-left: calc(-1 * $asteroids-belt-pl / 2);
+    margin-top: calc(-1 * $asteroids-belt-pl / 2);
     background: transparent;
     border-radius:140px !important;
     box-shadow: stars(390, 290, -290/2, -104);
@@ -341,15 +341,15 @@ body{
 .pluto{
   height: $pluto-orb;
   width: $pluto-orb;
-  margin-top: -$pluto-orb / 2 + -60;
-  margin-left: -$pluto-orb / 2 + 70;
+  margin-top: calc(-1 * $pluto-orb / 2) + -60;
+  margin-left: calc(-1 * $pluto-orb / 2) + 70;
   animation: orb revolution(90580) linear infinite;
   &:before{
     height:$pluto-pl;
     width:$pluto-pl;
     background:#fff;
-    margin-top: -$pluto-pl / 2;
-    margin-left: -$pluto-pl / 2;
+    margin-top: calc(-1 * $pluto-pl / 2);
+    margin-left: calc(-1 * $pluto-pl / 2);
   }
 }
 

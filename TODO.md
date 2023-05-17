@@ -50,10 +50,10 @@ Tools:
 5. Homepage
   - ~~Create Homepage and adjust routing~~
   - Create solar system component
-    - Fix Sass deprecation warnings
-    - Fix Sun appearence
+    - ~~Fix Sass deprecation warnings~~
+    - ~~Fix Sun appearence~~
     - Scale size for breakpoints
-    - Replace planets with asset planet SVSs
+    - Replace planets with asset planet SVGs
     - Turn into page selections
     - Hover states and fade-ins
 
