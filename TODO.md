@@ -56,6 +56,7 @@ Tools:
     - Replace planets with asset planet SVGs
     - Turn into page selections
     - Hover states and fade-ins
+  - Route title to Homepage
 
 6. Dynamically render all planet pages
   - Change Mercury component into SinglePlant
