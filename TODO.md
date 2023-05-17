@@ -53,25 +53,24 @@ Tools:
     - ~~Fix Sass deprecation warnings~~
     - ~~Fix Sun appearence~~
     - ~~Replace planets with asset planet SVGs~~
-    - Turn into page selections
+    - Turn into page selections (Use Link tags with the .map() rendering?)
     - Hover states and fade-ins
     - Scale size for breakpoints
       - Increase overall planet sizes (use pl variables)
       - Increase solar system size (stretch orbits size through orb variables)
   - Route title to Homepage
 
-6. Dynamically render all planet pages
-  - Change Mercury component into SinglePlant
-  - Then adjust the routing in App.jsx
-
 
 Possible expansions
   - Add NASA photo of the day API. Involves one more nav link and Api fetching
   - implement date picker component for NASA API
-  - Container?
+  - Docker container?
 
 Low Priority
   - Fix active states for buttons on tablet
   - Fade in for summary changes
   - Render 2 more of the planet images
   - Impliment loading spinner (useState() and conditional for rendering)?
+  - Dynamically render all planet pages
+    - Change Mercury component into SinglePlant
+    - Then adjust the routing in App.jsx
