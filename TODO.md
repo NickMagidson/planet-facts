@@ -52,10 +52,12 @@ Tools:
   - Create solar system component
     - ~~Fix Sass deprecation warnings~~
     - ~~Fix Sun appearence~~
-    - Scale size for breakpoints
-    - Replace planets with asset planet SVGs
+    - ~~Replace planets with asset planet SVGs~~
     - Turn into page selections
     - Hover states and fade-ins
+    - Scale size for breakpoints
+      - Increase overall planet sizes (use pl variables)
+      - Increase solar system size (stretch orbits size through orb variables)
   - Route title to Homepage
 
 6. Dynamically render all planet pages

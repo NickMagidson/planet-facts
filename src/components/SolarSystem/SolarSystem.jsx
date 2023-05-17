@@ -6,7 +6,7 @@ const SolarSystem = () => {
     <>
       <div className='solar-syst'>
         <div className='sun'></div>
-        {planets.map((planetName) => {return <div className={planetName.name.toLowerCase()}></div>})}
+        {planets.map((planetName, index) => {return <div key={index} className={planetName.name.toLowerCase()}></div>})}
         <div className='asteroids-belt'></div>
       </div>
     </>

@@ -179,7 +179,8 @@ body{
   &:before{
     height:$mercury-pl;
     width:$mercury-pl;
-    background: #9f5e26;
+    background-image: url('/assets/planet-mercury.svg');
+    background-size: cover;
     margin-top: calc(-1 * $mercury-pl / 2);
     margin-left: calc(-1 * $mercury-pl / 2);
   }
@@ -194,7 +195,8 @@ body{
   &:before{
     height:$venus-pl;
     width:$venus-pl;
-    background:#BEB768;
+    background-image: url('/assets/planet-venus.svg');
+    background-size: cover;
     margin-top: calc(-1 * $venus-pl / 2);
     margin-left: calc(-1 * $venus-pl / 2);
   }
@@ -209,7 +211,8 @@ body{
   &:before{
     height:$earth-pl;
     width:$earth-pl;
-    background:#11abe9;
+    background-image: url('/assets/planet-earth.svg');
+    background-size: cover;
     margin-top: calc(-1 * $earth-pl / 2);
     margin-left: calc(-1 * $earth-pl / 2);
   }
@@ -236,7 +239,8 @@ body{
   &:before{
     height:$mars-pl;
     width:$mars-pl;
-    background:#cf3921;
+    background-image: url('/assets/planet-mars.svg');
+    background-size: cover;
     margin-top: calc(-1 * $mars-pl / 2);
     margin-left: calc(-1 * $mars-pl / 2);
   }
@@ -251,7 +255,10 @@ body{
   &:before{
     height:$jupiter-pl;
     width:$jupiter-pl;
-    background:#c76e2a;
+    background-image: url('/assets/planet-jupiter.svg');
+    background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center center;
     margin-top: calc(-1 * $jupiter-pl / 2);
     margin-left: calc(-1 * $jupiter-pl / 2);
   }
@@ -265,7 +272,8 @@ body{
   &:before{
     height:$saturn-pl;
     width:$saturn-pl;
-    background:#e7c194;
+    background-image: url('/assets/planet-saturn.svg');
+    background-size: cover;
     margin-top: calc(-1 * $saturn-pl / 2);
     margin-left: calc(-1 * $saturn-pl / 2);
   }
@@ -296,7 +304,8 @@ body{
   &:before{
     height:$uranus-pl;
     width:$uranus-pl;
-    background:#b5e3e3;
+    background-image: url('/assets/planet-uranus.svg');
+    background-size: cover;
     margin-top: calc(-1 * $uranus-pl / 2);
     margin-left: calc(-1 * $uranus-pl / 2);
   }
@@ -311,7 +320,8 @@ body{
   &:before{
     height:$neptune-pl;
     width:$neptune-pl;
-    background:#175e9e;
+    background-image: url('/assets/planet-neptune.svg');
+    background-size: cover;
     margin-top: calc(-1 * $neptune-pl / 2);
     margin-left: calc(-1 * $neptune-pl / 2);
   }
