@@ -289,25 +289,6 @@ body{
   }
 }
 
-.jupiter:hover {
-  height: $jupiter-orb;
-  width: $jupiter-orb;
-  margin-top: calc(-1 * $jupiter-orb / 2);
-  margin-left: calc(-1 * $jupiter-orb / 2);
-  animation: orb revolution(4331) linear infinite;
-  &:before{
-    height:$jupiter-pl;
-    width:$jupiter-pl;
-    background-image: url('/assets/planet-jupiter.svg');
-    background-size: cover;
-    // background-repeat: no-repeat;
-    // background-position: center center;
-    margin-top: calc(-1 * $jupiter-pl / 2);
-    margin-left: calc(-1 * $jupiter-pl / 2);
-  }
-}
-
-
 .saturn{
   height: $saturn-orb;
   width: $saturn-orb;

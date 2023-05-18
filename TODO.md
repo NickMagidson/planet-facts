@@ -53,11 +53,11 @@ Tools:
     - ~~Fix Sass deprecation warnings~~
     - ~~Fix Sun appearence~~
     - ~~Replace planets with asset planet SVGs~~
-    - Turn into page selections (Use Link tags with the .map() rendering?)
-    - Hover states and fade-ins
     - ~~Scale size for breakpoints~~
       - ~~Increase overall planet sizes (use pl variables)~~
       - ~~Increase solar system size (stretch orbits size through orb variables)~~
+    - Turn into page selections (The Neptune div is big, thus the only clickable link is that. This is a CSS situation.)
+    - Hover states and fade-ins (Styled components is a possible solution to this.)
   - Route title to Homepage
 
 
@@ -67,7 +67,7 @@ Possible expansions
   - Docker container?
 
 Low Priority
-  - Fix active states for buttons on tablet
+  - Fix active states for buttons on tablet (Undo some Bootstrap)
   - Fade in for summary changes
   - Render 2 more of the planet images
   - Impliment loading spinner (useState() and conditional for rendering)?
