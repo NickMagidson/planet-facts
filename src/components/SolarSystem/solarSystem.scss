@@ -28,15 +28,17 @@ $year-in-second : 30; // 1 Earth year = 30 sec
   @return unquote($stars);
 }
 
-$sun: 40px;
-$mercury-orb : 70px; $mercury-pl: 4px; 
-$venus-orb : 100px; $venus-pl: 8px; 
-$earth-orb : 145px; $earth-pl: 6px; 
-$mars-orb : 190px; $mars-pl: 6px;
-$jupiter-orb : 340px; $jupiter-pl: 18px; 
-$saturn-orb : 440px; $saturn-pl: 12px;
-$uranus-orb : 520px; $uranus-pl: 10px;
-$neptune-orb : 630px; $neptune-pl: 10px;
+
+// Planet orbit and size variables
+$sun: 60px;
+$mercury-orb : 80px; $mercury-pl: 10px; 
+$venus-orb : 110px; $venus-pl: 10px; 
+$earth-orb : 145px; $earth-pl: 10px; 
+$mars-orb : 190px; $mars-pl: 20px;
+$jupiter-orb : 340px; $jupiter-pl: 40px; 
+$saturn-orb : 440px; $saturn-pl: 40px;
+$uranus-orb : 520px; $uranus-pl: 20px;
+$neptune-orb : 630px; $neptune-pl: 20px;
 $pluto-orb : 780px; $pluto-pl: 3px;
 
 $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
@@ -141,7 +143,7 @@ body{
     position:absolute;
     z-index:999;
     &:not(.sun){
-      border: 1px solid rgba(102, 166, 229, 0.12);
+      border: 1px solid rgba(102, 165, 229, 0.452);
       &:before{
         left:50%;
         border-radius:100px;
@@ -219,8 +221,8 @@ body{
   &:after{
     position: absolute;
     content: "";
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
     left: 50%;
     top: 0px;
     margin-left: -9px;
@@ -289,7 +291,7 @@ body{
     margin-left: -2.3%;
     margin-top: -1.2%;
     border-radius: 50% 50% 50% 50%;
-    box-shadow: 0 1px 0 1px #987641, 3px 1px 0 #987641, -3px 1px 0 #987641;
+    // box-shadow: 0 1px 0 1px #987641, 3px 1px 0 #987641, -3px 1px 0 #987641;
     animation: orb revolution(10747) linear infinite;
     animation-direction: reverse; // compensate to reverse main orbit animation
     transform-origin: 52% 60%;
@@ -349,20 +351,20 @@ body{
   }
 }
 
-.pluto{
-  height: $pluto-orb;
-  width: $pluto-orb;
-  margin-top: calc(-1 * $pluto-orb / 2) + -60;
-  margin-left: calc(-1 * $pluto-orb / 2) + 70;
-  animation: orb revolution(90580) linear infinite;
-  &:before{
-    height:$pluto-pl;
-    width:$pluto-pl;
-    background:#fff;
-    margin-top: calc(-1 * $pluto-pl / 2);
-    margin-left: calc(-1 * $pluto-pl / 2);
-  }
-}
+// .pluto{
+//   height: $pluto-orb;
+//   width: $pluto-orb;
+//   margin-top: calc(-1 * $pluto-orb / 2) + -60;
+//   margin-left: calc(-1 * $pluto-orb / 2) + 70;
+//   animation: orb revolution(90580) linear infinite;
+//   &:before{
+//     height:$pluto-pl;
+//     width:$pluto-pl;
+//     background:#fff;
+//     margin-top: calc(-1 * $pluto-pl / 2);
+//     margin-left: calc(-1 * $pluto-pl / 2);
+//   }
+// }
 
 .hide{
   display:none;
