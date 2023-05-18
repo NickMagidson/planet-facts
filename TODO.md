@@ -69,6 +69,7 @@ Possible expansions
 
 Low Priority Bug Fixes
   - Fix active states for buttons on tablet (Undo some Bootstrap)
+  - Fix MDB Grid "pre-render"
   - Fade in for summary changes
   - Render 2 more of the planet images
   - Impliment loading spinner (useState() and conditional for rendering)?
