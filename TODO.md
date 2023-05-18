@@ -49,6 +49,7 @@ Tools:
 
 5. Homepage
   - ~~Create Homepage and adjust routing~~
+  - ~~Route title to Homepage~~
   - Create solar system component
     - ~~Fix Sass deprecation warnings~~
     - ~~Fix Sun appearence~~
@@ -58,7 +59,7 @@ Tools:
       - ~~Increase solar system size (stretch orbits size through orb variables)~~
     - Turn into page selections (The Neptune div is big, thus the only clickable link is that. This is a CSS situation.)
     - Hover states and fade-ins (Styled components is a possible solution to this.)
-  - Route title to Homepage
+
 
 
 Possible expansions
@@ -66,7 +67,7 @@ Possible expansions
   - implement date picker component for NASA API
   - Docker container?
 
-Low Priority
+Low Priority Bug Fixes
   - Fix active states for buttons on tablet (Undo some Bootstrap)
   - Fade in for summary changes
   - Render 2 more of the planet images

@@ -29,7 +29,7 @@ $year-in-second : 30; // 1 Earth year = 30 sec
 }
 
 @mixin fadeIn {
-  animation: systIntro 3s ease 0s 1 normal forwards;
+  animation: systIntro 3s ease 1 normal forwards;
 
   @keyframes systIntro {
     0% {

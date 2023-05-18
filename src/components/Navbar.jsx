@@ -23,7 +23,7 @@ export default function Navbar() {
     <>
       <MDBNavbar className=' navbar navbar-expand-md'>
         <MDBContainer className='nav-container d-flex align-items-center' fluid>
-        <h1 className='nav-title navbar-expand-md'>THE PLANETS</h1>
+        <Link to='/'><h1 className='nav-title navbar-expand-md'>THE PLANETS</h1></Link>
           <MDBNavbarToggler
             className='ms-auto'
             type='button'
