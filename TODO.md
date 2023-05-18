@@ -55,9 +55,9 @@ Tools:
     - ~~Replace planets with asset planet SVGs~~
     - Turn into page selections (Use Link tags with the .map() rendering?)
     - Hover states and fade-ins
-    - Scale size for breakpoints
-      - Increase overall planet sizes (use pl variables)
-      - Increase solar system size (stretch orbits size through orb variables)
+    - ~~Scale size for breakpoints~~
+      - ~~Increase overall planet sizes (use pl variables)~~
+      - ~~Increase solar system size (stretch orbits size through orb variables)~~
   - Route title to Homepage
 
 
