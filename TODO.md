@@ -74,6 +74,7 @@ Low Priority Bug Fixes
   - Fix MDB Grid "pre-render"
   - Fade in for summary changes
   - Render 2 more of the planet images
+  - Wrap json fetching in useEffect()?
   - Impliment loading spinner (useState() and conditional for rendering)?
   - Dynamically render all planet pages
     - Change Mercury component into SinglePlant
