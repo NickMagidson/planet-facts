@@ -1,6 +1,6 @@
 import SolarSystem from "./SolarSystem/SolarSystem";
 
-function Homepage() {
+const Homepage = () => {
   return (
     <>
       <SolarSystem />

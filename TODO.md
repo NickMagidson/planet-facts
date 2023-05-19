@@ -65,7 +65,7 @@ Tools:
 Possible expansions
   - Add NASA photo of the day API.
     - Add route and link, build out div structure
-    - Use class component from previous project
+    - Use class component from previous project (three files)
     - implement react date picker
   - Docker container?
 
