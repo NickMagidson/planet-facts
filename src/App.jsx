@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
+import AstroPhoto from './components/AstroPhoto/AstroPhoto';
 import { 
   Mercury,
   Venus,
@@ -28,7 +29,7 @@ function App() {
         <Route path='saturn' element={<Saturn/>} />
         <Route path='uranus' element={<Uranus/>} />
         <Route path='neptune' element={<Neptune/>} />
-        {/* Route AstroPhoto */}
+        <Route path='photo' element={<AstroPhoto/>} />
       </Routes>
     </>
   )

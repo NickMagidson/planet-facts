@@ -198,5 +198,9 @@
       "geology": "./assets/geology-neptune.png"
     },
     "color": "#497EFA"
+  },
+  {
+    "name": "Photo",
+    "color": "#7D807E"
   }
 ]
