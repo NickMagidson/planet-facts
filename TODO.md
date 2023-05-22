@@ -61,12 +61,10 @@ Tools:
     - Hover states and fade-ins (Styled components is a possible solution to this.)
 
 6. NASA APOD API
-  - AstroPhoto
-    - DatePicker
-    - Photo
-  - Add route and link, build out div structure
-  - Use class component from previous project (three files)
-  - implement react date picker
+  - ~~Add route and link~~
+  - Photo component API fetching, and JSX (class component?)
+  - Implement react date picker
+  - Style component
 
 
 
