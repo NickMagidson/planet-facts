@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import Photo from "./Photo";
 import DateInput from "./DateInput";
-// import './photoStyle';
+import '../AstroPhoto/photoStyle.scss';
 
 
 const API_KEY = 'V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8';
 // const API_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
-
 
 
 class AstroPhoto extends Component {
