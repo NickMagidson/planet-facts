@@ -62,8 +62,8 @@ Tools:
 
 6. NASA APOD API
   - ~~Add route and link~~
-  - Photo component API fetching, and JSX (class component?)
-  - Implement react date picker
+  - ~~Photo component API fetching, and JSX (class component?)~~
+  - ~~Implement react date picker~~
   - Style component
 
 
