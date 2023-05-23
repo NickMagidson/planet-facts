@@ -65,6 +65,8 @@ Tools:
   - ~~Photo component API fetching, and JSX (class component?)~~
   - ~~Implement react date picker~~
   - Style component
+    - General layout styling
+    - Replace date h3 with datepicker itself?
 
 
 
@@ -75,6 +77,15 @@ Possible expansions
 Low Priority Bug Fixes
   - Put planet components into folder for organization
   - Create mixins folder and import them into their seperate scss files.
+  - Organize sass files (maybe just abstracts)
+    - /sass
+      index.scss (main)
+      - /abstracts
+        - variables.scss
+        - mixins.scss
+      - /pages
+        - photoStyle.scss
+        - solarSystem.scss
   - Fix active states for buttons on tablet (Undo some Bootstrap)
   - Fix MDB Grid "pre-render"
   - Fade in for summary changes

@@ -10,7 +10,7 @@ const Photo = ( props ) => {
 
       <div className="info-container">
         <h1 className='info-title'>{props.photo.title}</h1>
-        <h3 className="date">{props.photo.date}</h3>
+        <h3 className="date">{props.photo.date}</h3> 
         <p className="description">{props.photo.explanation}</p>
       </div>
       </>

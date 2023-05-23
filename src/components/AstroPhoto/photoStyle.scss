@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;500;700&family=League+Spartan:wght@100;300;500;700&display=swap');
+
 @mixin flex-center {
     display: flex;
     justify-content: center;
@@ -7,12 +10,15 @@
 #main {
     display: flex;
     flex-direction: column;
-    align-items: space-around;
 }
+
+///// PHOTO CONTENT /////
 
 .photo-container {
     @include flex-center;
-    padding: 20px
+    padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .photo-anchor {
@@ -23,4 +29,25 @@
 
 .photo {
     width: 100%;
+}
+
+///// TEXT CONTENT /////
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-top: 10%;
+}
+
+.info-title {
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.description {
+    font-family: 'Spartan', Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.684);
+    line-height: 1.8em;
+    padding-right: 5px;
 }

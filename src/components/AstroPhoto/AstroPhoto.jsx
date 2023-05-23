@@ -52,7 +52,7 @@ class AstroPhoto extends Component {
 	render() {
     return (
       <>
-        <main className="main">
+        <main id="main">
 
           {/* <DateInput 
             date={this.state.date}
