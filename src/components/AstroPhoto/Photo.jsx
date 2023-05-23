@@ -1,10 +1,11 @@
 import React from "react";
+import '../AstroPhoto/photoStyle.scss';
 
 const Photo = ( props ) => {
   return (
     <>
       <div className="photo-container">
-        <a href={props.photo.hdurl} target="_blank" rel="noreferrer"><img src={props.photo.url} className="photo" alt="APOD" /></a>
+        <a className="photo-anchor" href={props.photo.hdurl} target="_blank" rel="noreferrer"><img src={props.photo.url} className="photo" alt="APOD" /></a>
       </div>
 
       <div className="info-container">

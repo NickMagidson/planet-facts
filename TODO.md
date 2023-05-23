@@ -74,6 +74,7 @@ Possible expansions
 
 Low Priority Bug Fixes
   - Put planet components into folder for organization
+  - Create mixins folder and import them into their seperate scss files.
   - Fix active states for buttons on tablet (Undo some Bootstrap)
   - Fix MDB Grid "pre-render"
   - Fade in for summary changes

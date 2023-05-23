@@ -54,11 +54,11 @@ class AstroPhoto extends Component {
       <>
         <main className="main">
 
-          <DateInput 
+          {/* <DateInput 
             date={this.state.date}
             changeDate={this.changeDate}
             handleClick={this.handleClick} 
-          />
+          /> */}
           <Photo photo={this.state.photo} />
         </main>
       </>
