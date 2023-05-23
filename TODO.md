@@ -73,6 +73,7 @@ Possible expansions
   - Docker container?
 
 Low Priority Bug Fixes
+  - Put planet components into folder for organization
   - Fix active states for buttons on tablet (Undo some Bootstrap)
   - Fix MDB Grid "pre-render"
   - Fade in for summary changes
