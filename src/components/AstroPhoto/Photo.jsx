@@ -5,7 +5,7 @@ const Photo = ( props ) => {
   return (
     <>
       <div className="photo-container">
-        <a className="photo-anchor" href={props.photo.hdurl} target="_blank" rel="noreferrer"><img src={props.photo.url} className="photo" alt="APOD" /></a>
+        <a className="photo-anchor" href={props.photo.hdurl} target="_blank" rel="noreferrer"><img src={props.photo.url} className="img" alt="APOD" /></a>
       </div>
 
       <div className="info-container">
