@@ -56,8 +56,6 @@
 @media (min-width: 768px) {
 
     .photo-container {
-        @include flex-center;
-        padding: 20px;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -69,5 +67,32 @@
 
     .description {
         margin-top: 5%;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .photo-container {
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .photo-anchor {
+        max-width: 60%;
+    }
+    
+    .info-container {
+        padding: 100px;
+        margin: auto;
+    }
+
+    .info-title {
+        font-size: 2.4rem;
+    }
+
+    .description {
+        margin: auto;
+        letter-spacing: .4px;
+        padding-right: 90px;
     }
 }

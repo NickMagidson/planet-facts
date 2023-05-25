@@ -52,7 +52,7 @@ class AstroPhoto extends Component {
 	render() {
     return (
       <>
-        <main id="main">
+        <main id="main" style={{ overflow: 'scroll', height: '100vh' }}>
 
           {/* <DateInput 
             date={this.state.date}
