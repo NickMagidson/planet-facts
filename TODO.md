@@ -65,8 +65,9 @@ Tools:
   - ~~Photo component API fetching, and JSX (class component?)~~
   - ~~Implement react date picker~~
   - Style component
-    - General layout styling
-    - Replace date h3 with datepicker itself?
+    - ~~General layout styling~~
+    - ~~Responsive~~
+    - Uncomment datepicker and place in layout
 
 
 
