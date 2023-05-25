@@ -36,7 +36,7 @@
 .info-container {
     display: flex;
     flex-direction: column;
-    padding: 3px;
+    padding: 10px;
     margin-top: 10%;
 }
 
@@ -50,4 +50,24 @@
     color: rgba(255, 255, 255, 0.684);
     line-height: 1.8em;
     padding-right: 5px;
+    margin-top: 10%;
+}
+
+@media (min-width: 768px) {
+
+    .photo-container {
+        @include flex-center;
+        padding: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .info-container {
+        margin-top: 5%;
+        padding: 20px;
+    }
+
+    .description {
+        margin-top: 5%;
+    }
 }

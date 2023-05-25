@@ -15,7 +15,7 @@ export default function Navbar() {
     display: 'flex',
     alignItems: 'center',
     opacity: '60%',
-    fontSize: '1rem',
+    fontSize: '.9rem',
     margin: 'auto'
   }
 
