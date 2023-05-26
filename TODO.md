@@ -67,6 +67,7 @@ Tools:
   - Style component
     - ~~General layout styling~~
     - ~~Responsive~~
+    - Desktop big screen responsive
     - Uncomment datepicker and place in layout
 
 
