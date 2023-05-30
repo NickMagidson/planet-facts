@@ -54,11 +54,13 @@ class AstroPhoto extends Component {
       <>
         <main id="main" style={{ overflow: 'scroll', height: '100vh' }}>
 
-          {/* <DateInput 
+          <DateInput 
             date={this.state.date}
             changeDate={this.changeDate}
             handleClick={this.handleClick} 
-          /> */}
+          />
+          <hr className="d-sm-none" style={{borderTop: '1px solid #bbb', margin: '0'}} ></hr>
+      
           <Photo photo={this.state.photo} />
         </main>
       </>

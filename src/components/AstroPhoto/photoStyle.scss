@@ -53,6 +53,22 @@
     margin-top: 10%;
 }
 
+///// DATEPICKER /////
+.datepicker-title {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.date-select {
+    width: 30%;
+    margin: auto;
+    font-size: 1rem;
+}
+
 @media (min-width: 768px) {
 
     .photo-container {
@@ -68,6 +84,13 @@
     .description {
         margin-top: 5%;
     }
+
+    .date-select {
+        width: 13%;
+        margin: auto;
+        font-size: 1rem;
+    }
+    
 }
 
 @media (min-width: 1440px) {
@@ -95,16 +118,25 @@
         letter-spacing: .4px;
         padding-right: 90px;
     }
+
+    .date-select {
+        width: 6.5%;
+    }
+    
 }
 
 @media (min-width: 1920px) {
 
     .info-container {
-        padding: 150px;
+        padding: 180px;
     }
 
     .description {
         padding-right: 300px;
+    }
+
+    .date-select {
+        width: 5%;
     }
 
 }
