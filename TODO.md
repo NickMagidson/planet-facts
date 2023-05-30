@@ -74,14 +74,12 @@ Tools:
 
 
 
-
-Possible expansions
-  - Docker container?
-
 Low Priority Tasks
   - ~~Put planet components into folder for organization~~
+  - Impliment loading spinner
+  - Fade in for summary changes
+  - Wrap json fetching in useEffect()?
   - Create mixins folder and import them into their seperate scss files.
-  - Organize sass files (maybe just abstracts)
     - /sass
       index.scss (main)
       - /abstracts
@@ -92,10 +90,8 @@ Low Priority Tasks
         - solarSystem.scss
   - Fix active states for buttons on tablet (Undo some Bootstrap)
   - Fix MDB Grid "pre-render"
-  - Fade in for summary changes
   - Render 2 more of the planet images
-  - Wrap json fetching in useEffect()?
-  - Impliment loading spinner
   - Dynamically render all planet pages
     - Change Mercury component into SinglePlant
     - Then adjust the routing in App.jsx
+  - Docker container?
