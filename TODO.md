@@ -69,7 +69,7 @@ Tools:
     - ~~Responsive~~
     - ~~Desktop big screen responsive~~
     - ~~Uncomment datepicker and place in layout~~
-    - Refactor to functional component?
+    - Refactor to functional component for easy loader implimentation?
     - Fade-ins after loadspinner is implimented
 
 
