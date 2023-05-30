@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Photo from "./Photo";
 import DateInput from "./DateInput";
-import CircleLoader from "react-spinners/CircleLoader";
+import { CircleLoader } from "react-spinners";
 import '../AstroPhoto/photoStyle.scss';
 
 const API_KEY = 'V3So8Qu3NHWIE20l3VCTlXhyZscIKTZK7W1vhJS8';
@@ -29,10 +29,12 @@ const AstroPhoto = () => {
   };
 
   useEffect(() => {
+    setLoading(true)
     fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`)
     .then((response) => response.json())
     .then((json) => {
     setPhoto(json);
+    setLoading(false)
     });
   }, []);
 
@@ -45,7 +47,20 @@ const AstroPhoto = () => {
           changeDate={changeDate}
         />
         <hr className="d-sm-none" style={{ borderTop: '1px solid #bbb', margin: '0' }}></hr>
-        <Photo photo={photo} />
+        
+        {loading ? (
+          <CircleLoader
+            color="#36d7b7"
+            cssOverride={{
+              margin: 'auto'
+            }}
+            loading
+            size={150}
+            speedMultiplier={1}
+          />
+            ) : ( 
+              <Photo photo={photo} /> 
+            )}
       {/* <CircleLoader color="#36d7b7" /> */}
       </main>
     </>
