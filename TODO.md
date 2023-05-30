@@ -69,6 +69,8 @@ Tools:
     - ~~Responsive~~
     - ~~Desktop big screen responsive~~
     - ~~Uncomment datepicker and place in layout~~
+    - Refactor to functional component?
+    - Fade-ins after loadspinner is implimented
 
 
 
@@ -77,7 +79,7 @@ Possible expansions
   - Docker container?
 
 Low Priority Tasks
-  - Put planet components into folder for organization
+  - ~~Put planet components into folder for organization~~
   - Create mixins folder and import them into their seperate scss files.
   - Organize sass files (maybe just abstracts)
     - /sass
