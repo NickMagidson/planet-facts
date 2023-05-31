@@ -78,17 +78,9 @@ Tools:
 Low Priority Tasks
   - ~~Put planet components into folder for organization~~
   - ~~Impliment loading spinner~~
+  - ~~Create mixins folder and import them into their seperate scss files.~~
   - Fade in for summary changes
   - Wrap json fetching in useEffect()?
-  - Create mixins folder and import them into their seperate scss files.
-    - /sass
-      index.scss (main)
-      - /abstracts
-        - variables.scss
-        - mixins.scss
-      - /pages
-        - photoStyle.scss
-        - solarSystem.scss
   - Fix active states for buttons on tablet (Undo some Bootstrap)
   - Fix MDB Grid "pre-render"
   - Render 2 of the planet images
