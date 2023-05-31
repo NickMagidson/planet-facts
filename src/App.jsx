@@ -29,7 +29,7 @@ function App() {
         <Route path='saturn' element={<Saturn/>} />
         <Route path='uranus' element={<Uranus/>} />
         <Route path='neptune' element={<Neptune/>} />
-        <Route path='photo' element={<AstroPhoto/>} />
+        <Route path='daily' element={<AstroPhoto/>} />
       </Routes>
     </>
   )
