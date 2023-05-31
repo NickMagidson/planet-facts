@@ -2,7 +2,7 @@ import { useState } from "react";
 import planets from "../../data.json";
 import source from "/assets/icon-source.svg";
 import { MDBCol, MDBRow, MDBBtnGroup, MDBBtn } from "mdb-react-ui-kit"; 
-import '../../index.scss'
+import '../../sass/index.scss';
 
 const Saturn = () => {
 
