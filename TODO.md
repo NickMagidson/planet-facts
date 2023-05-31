@@ -64,19 +64,20 @@ Tools:
   - ~~Add route and link~~
   - ~~Photo component API fetching, and JSX (class component?)~~
   - ~~Implement react date picker~~
-  - Style component
+  - ~~Style component~~
     - ~~General layout styling~~
     - ~~Responsive~~
     - ~~Desktop big screen responsive~~
     - ~~Uncomment datepicker and place in layout~~
-    - Refactor to functional component for easy loader implimentation?
-    - Fade-ins after loadspinner is implimented
+    - ~~Refactor to functional component for easy loader implimentation~~
+    - ~~Fade-ins after loadspinner is implimented~~
+  - ~~Adjust API and styling for video content~~
 
 
 
 Low Priority Tasks
   - ~~Put planet components into folder for organization~~
-  - Impliment loading spinner
+  - ~~Impliment loading spinner~~
   - Fade in for summary changes
   - Wrap json fetching in useEffect()?
   - Create mixins folder and import them into their seperate scss files.
@@ -90,7 +91,7 @@ Low Priority Tasks
         - solarSystem.scss
   - Fix active states for buttons on tablet (Undo some Bootstrap)
   - Fix MDB Grid "pre-render"
-  - Render 2 more of the planet images
+  - Render 2 of the planet images
   - Dynamically render all planet pages
     - Change Mercury component into SinglePlant
     - Then adjust the routing in App.jsx

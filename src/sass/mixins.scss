@@ -1,0 +1,46 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin fade-in {
+  // animation: planetFade 2s ease 0s 1 normal forwards;
+  animation-name: planetFade;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+
+  @keyframes planetFade {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin slide-in {
+  animation-name: slideIn;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}

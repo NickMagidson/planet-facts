@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;500;700&family=League+Spartan:wght@100;300;500;700&display=swap');
+@import '../../sass/mixins.scss';
 
-@mixin flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #main {
     display: flex;
@@ -16,6 +12,7 @@
 
 .photo-container {
     @include flex-center;
+    @include fade-in;
     padding: 20px;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -34,6 +31,7 @@
 
 .video-container {
     @include flex-center;
+    @include fade-in;
     flex-direction: column;
     padding: 20px;
     margin-top: 10%;
@@ -43,6 +41,7 @@
 ///// TEXT CONTENT /////
 
 .info-container {
+    @include slide-in;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -76,6 +75,7 @@
     width: 30%;
     margin: auto;
     font-size: 1rem;
+    color: rgba(240, 248, 255, 0.568);
 }
 
 .spinner {
@@ -182,5 +182,11 @@
         height: 500px;
     }
 
+    .datepicker-title {
+        padding: 20px;
+    }
+    .date-select {
+        font-size: 1.1rem;
+    }
 
 }
