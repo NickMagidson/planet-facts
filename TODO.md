@@ -74,6 +74,17 @@ Tools:
   - ~~Adjust API and styling for video content~~
 
 
+7. Dave Feedback
+  - One a giant screen, half the content gets cut in half (not centered)
+  - Experiment with page zooming. On scroll you lose the scroll out? The header/nav also disappears
+  - The grid block: have 2 slide in from left, other 2 slide in from right.
+  - Datepicker year selector is empty
+  - When the summary changes happen, everything shifts from the text
+  - A star is bigger than venus (background svg)
+
+
+
+
 
 Low Priority Tasks
   - ~~Put planet components into folder for organization~~
@@ -88,10 +99,3 @@ Low Priority Tasks
     - Change Mercury component into SinglePlant
     - Then adjust the routing in App.jsx
   - Docker container?
-
-Dave Feedback
-- A star is bigger than venus (background svg)
-- One a giant screen, half the content gets cut in half (not centered)
-- Experiment with page zooming. On scroll you lose the scroll out? The header/nav also disappears
-- The grid block: have 2 slide in from left, other 2 slide in from right.
-- Datepicker year selector is empty

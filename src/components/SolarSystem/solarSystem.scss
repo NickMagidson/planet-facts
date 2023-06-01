@@ -12,21 +12,26 @@
   Pluto : ~90 580 days (~248 years)
 */
 
+@import '../../sass/mixins.scss';
+
 $year-in-second : 30; // 1 Earth year = 30 sec
 
 @function revolution($pl-year-in-days){
   @return calc($pl-year-in-days * $year-in-second / 365.2563) + s  //Earth reference
-}
+};
+
 @function alphaRandom() {
   @return random(1000)*.001;
-}
+};
+
+
 @function stars($s, $max-area, $min-area : 0, $star-size : 0){
   $stars : #{$min-area + random($max-area)}px #{$min-area + random($max-area)}px 0 #{$star-size}px rgba(255,255,255, alphaRandom()); 
   @for $i from 1 to $s{
     $stars: '#{$stars} , #{$min-area + random($max-area)}px #{$min-area + random($max-area)}px 0 #{$star-size}px rgba(255,255,255, #{alphaRandom()})'
   }
   @return unquote($stars);
-}
+};
 
 @mixin fadeIn {
   animation: systIntro 3s ease 1 normal forwards;
@@ -148,10 +153,14 @@ body{
     height:2px;
     width:2px;
     top:-2px;
+    // Properties to experiment with
+    // top
+    // left
     background:white;
     box-shadow: stars(500, 1800);
     border-radius:100px;
   }
+  // Stars container (also pushes solar system)
   @include fadeIn;
   margin:0 auto;
   width:100%;
