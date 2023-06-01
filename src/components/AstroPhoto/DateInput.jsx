@@ -5,7 +5,6 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const DateInput = props => (
   <div className="datepicker-title">
-
     <p className="date-select">Select a Date:</p>
     <DatePicker
       className="date-picker"

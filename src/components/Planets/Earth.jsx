@@ -55,10 +55,8 @@ const Earth = () => {
                 <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">03</span>Geology</p>
               </MDBBtn>
             </MDBBtnGroup>
-            
           </div>
         </section>
-
             <MDBRow className="info-grid p-4 h-0">
               <MDBCol size='md' className="grid-block p-2 border border-dark gy-3">
                 <p className="planet-grid-title m-0 w-100">ROTATION TIME</p>

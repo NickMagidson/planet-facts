@@ -4,6 +4,7 @@ import '../AstroPhoto/photoStyle.scss';
 const Photo = (props) => {
   const isVideo = props.photo.media_type === "video";
 
+  // Checking to see if the photo of the day is a video
   if (isVideo) {
     return (
       <>
@@ -42,7 +43,6 @@ const Photo = (props) => {
             />
           </a>
         </div>
-
         <div className="info-container">
           <h1 className="info-title">{props.photo.title}</h1>
           <h3 className="date">{props.photo.date}</h3>

@@ -20,6 +20,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route index path="/" element={<Homepage />} />
+        {/* Line below: For refactoring the app to dynamically render planet components */}
         {/* <Route path='mercury' element={<SinglePlanet planet={planet[0]} />} /> */}
         <Route path='mercury' element={<Mercury />} />
         <Route path='venus' element={<Venus/>} />
