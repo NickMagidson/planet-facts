@@ -17,15 +17,15 @@ const Venus = () => {
   return (
     <>
         {/* BUTTONS FOR SUMMARY CHANGES */}
-        <MDBBtnGroup className=" btn-group w-100 bg-transparent">
-          <MDBBtn className="planet-btn w-100 bg-transparent text-white-50" onClick={() => handleSummary(overview.content)}>
-            <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">01</span>    Overview</p>
+        <MDBBtnGroup className="btn-group w-100 bg-transparent">
+          <MDBBtn className="planet-btn w-100 bg-transparent text-white-50 d-flex justify-content-center" onClick={() => handleSummary(overview.content)}>
+            <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">01</span>Overview</p>
           </MDBBtn>
-          <MDBBtn className="planet-btn w-100 bg-transparent text-white-50" onClick={() => handleSummary(structure.content)}>
-            <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50" >02</span>   Structure</p>
+          <MDBBtn className="planet-btn w-100 bg-transparent text-white-50 d-flex justify-content-center" onClick={() => handleSummary(structure.content)}>
+            <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50" >02</span>Structure</p>
           </MDBBtn>
-          <MDBBtn className="planet-btn w-100 bg-transparent text-white-50" onClick={() => handleSummary(geology.content)}>
-            <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">03</span>   Geology</p>
+          <MDBBtn className="planet-btn w-100 bg-transparent text-white-50 d-flex justify-content-center" onClick={() => handleSummary(geology.content)}>
+            <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">03</span>Geology</p>
           </MDBBtn>
         </MDBBtnGroup>
       <hr className="d-sm-none" style={{borderTop: '1px solid #bbb', margin: '0'}} ></hr>
@@ -37,9 +37,9 @@ const Venus = () => {
             <img src={images.planet} className="planet-img" alt="planet" />
           </div>
           <div className="tablet-info">
-            <div className="text-blurb d-flex flex-column align-items-center justify-content-sm-start">
+            <div className="text-blurb">
               <h1 className="planet-name m-0">{name.toUpperCase()}</h1>
-              <p className="planet-desc p-4">{summary}</p>
+              <p className="planet-desc">{summary}</p>
               <p className="planet-source">Source: <span><a href={overview.source}>Wikipedia <img src={source} /></a></span></p>
             </div>
 
