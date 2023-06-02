@@ -361,6 +361,7 @@ html,
 
   .planet-desc {
     font-size: 16px;
+    height: auto;
   }
 
   .info-grid {
@@ -379,12 +380,11 @@ html,
 
 @media (min-width: 1920px) {
 
-  .planet-img {}
+  // .planet-img {}
 
-  .tablet-info {
- 
-    min-height: 100%;
-  }
+  // .tablet-info {
+  //   height: 100%;
+  // }
 
   // .text-blurb {}
 }
