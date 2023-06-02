@@ -75,12 +75,13 @@ Tools:
 
 
 7. Dave Feedback
-  - When the summary changes happen, everything shifts from the text
-    - When the desktoip breakpoint happens, the tablet-info goes flex column. This is when this bug happens.
-  - One a giant screen, half the content gets cut in half (not centered)
-  - The grid block: have 2 slide in from left, other 2 slide in from right.
+  Higher Priority:
+  - ~~When the summary changes happen, everything shifts from the text~~
   - Datepicker year selector is empty
+  - One a giant screen, half the content gets cut in half (not centered)
 
+  Lower Priority:
+  - The grid block: have 2 slide in from left, other 2 slide in from right.
   - A star is bigger than venus (background svg)
   - Experiment with page zooming. On scroll you lose the scroll out? The header/nav also disappears (This is obscure)
 
