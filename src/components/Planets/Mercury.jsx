@@ -39,9 +39,9 @@ const Mercury = () => {
             <img src={images.planet} className="planet-img" alt="planet" />
           </div>
           <div className="tablet-info">
-            <div className="text-blurb d-flex flex-column align-items-center justify-content-sm-start">
+            <div className="text-blurb">
               <h1 className="planet-name m-0">{name.toUpperCase()}</h1>
-              <p className="planet-desc p-4">{summary}</p>
+              <p className="planet-desc">{summary}</p>
               <p className="planet-source">Source: <span><a href={overview.source}>Wikipedia <img src={source} /></a></span></p>
             </div>
 
