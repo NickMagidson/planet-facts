@@ -41,7 +41,7 @@
 ///// TEXT CONTENT /////
 
 .info-container {
-    @include slide-in;
+    @include slide-in-left;
     display: flex;
     flex-direction: column;
     padding: 10px;
