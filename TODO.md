@@ -77,18 +77,13 @@ Tools:
 7. Dave Feedback
   Higher Priority:
   - ~~When the summary changes happen, everything shifts from the text~~
+  - ~~The grid block: have 2 slide in from left, other 2 slide in from right.~~
   - Datepicker year selector is empty (hidden for now)
   - One a giant screen, half the content gets cut in half (not centered)
     Options to try:
     - Absolute position with solar syst?
     - The widths in the Stars container (play around in the dev tools)
     - Try wrapping in a div from the Homepage component / Homepage stylesheet
-
-  Lower Priority:
-  - ~~The grid block: have 2 slide in from left, other 2 slide in from right.~~
-  - A star is bigger than venus (background svg)
-  - Experiment with page zooming. On scroll you lose the scroll out? The header/nav also disappears (This is obscure)
-
 
 
 
@@ -97,10 +92,12 @@ Low Priority Tasks
   - ~~Put planet components into folder for organization~~
   - ~~Impliment loading spinner~~
   - ~~Create mixins folder and import them into their seperate scss files.~~
+  - ~~Fix MDB Grid "pre-render"~~
   - Fade in for summary changes
   - Wrap json fetching in useEffect()?
   - Fix active states for buttons on tablet (Undo some Bootstrap)
-  - Fix MDB Grid "pre-render"
+  - A star is bigger than venus (background svg)
+  - Experiment with page zooming. On scroll you lose the scroll out? The header/nav also disappears (This is obscure)
   - Render 2 of the planet images
   - Dynamically render all planet pages
     - Change Mercury component into SinglePlant
