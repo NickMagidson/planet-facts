@@ -58,19 +58,19 @@ const Saturn = () => {
           </div>
         </section>
             <MDBRow className="info-grid p-4 h-0">
-              <MDBCol size='md' className="grid-block p-2 border border-dark gy-3">
+              <MDBCol size='md' className="grid-block-1 p-2 border border-dark gy-3">
                 <p className="planet-grid-title m-0 w-100">ROTATION TIME</p>
                 <h3 className="planet-grid-info m-0 w-100">{rotation}</h3>
               </MDBCol>
-              <MDBCol size='md' className="grid-block p-2 border border-dark gy-3">
+              <MDBCol size='md' className="grid-block-1 p-2 border border-dark gy-3">
                 <p className="planet-grid-title m-0 w-100">REVOLUTION TIME</p>
                 <h3 className="planet-grid-info m-0 w-100">{revolution}</h3>
               </MDBCol>
-              <MDBCol size='md' className="grid-block p-2 border border-dark gy-3">
+              <MDBCol size='md' className="grid-block-2 p-2 border border-dark gy-3">
                 <p className="planet-grid-title m-0 w-100">RADIUS</p>
                 <h3 className="planet-grid-info m-0 w-100">{radius}</h3>
               </MDBCol>
-              <MDBCol size='md' className="grid-block p-2 border border-dark gy-3">
+              <MDBCol size='md' className="grid-block-2 p-2 border border-dark gy-3">
                 <p className="planet-grid-title m-0 w-100">AVERAGE TEMP.</p>
                 <h3 className="planet-grid-info m-0 w-100">{temperature}</h3>
               </MDBCol>
