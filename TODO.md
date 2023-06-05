@@ -82,7 +82,7 @@ Tools:
     Options to try:
     - Absolute position with solar syst?
     - The widths in the Stars container (play around in the dev tools)
-    - Try wrapping in a div from the Homepage component
+    - Try wrapping in a div from the Homepage component / Homepage stylesheet
 
   Lower Priority:
   - ~~The grid block: have 2 slide in from left, other 2 slide in from right.~~
