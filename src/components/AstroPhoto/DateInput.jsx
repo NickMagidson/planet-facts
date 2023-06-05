@@ -13,8 +13,7 @@ const DateInput = props => (
       minDate={new Date('06-16-1995')}
       maxDate={new Date()}
       dateFormat='MM/dd/yyyy'
-	  showYearDropdown
-	  scrollableMonthYearDropdown
+      scrollableMonthYearDropdown
     />
   </div>
 );
