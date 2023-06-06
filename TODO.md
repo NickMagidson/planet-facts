@@ -58,7 +58,8 @@ Tools:
       - ~~Increase overall planet sizes (use pl variables)~~
       - ~~Increase solar system size (stretch orbits size through orb variables)~~
     - Turn into page selections (The Neptune div is big, thus the only clickable link is that. This is a CSS situation.)
-    - Hover states and fade-ins (Styled components is a possible solution to this.)
+      - ~~Change the z-indexes. Solar syst class zindex made the planets not hoverable~~
+      - Hover states and fade-ins (Styled components is a possible solution to this.)
 
 6. NASA APOD API
   - ~~Add route and link~~

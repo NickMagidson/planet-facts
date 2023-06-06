@@ -172,7 +172,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
     top:50%;
     left:50%;
     position:absolute;
-    z-index:999;
+    // z-index:999;
     &:not(.sun){
       border: 1px solid rgba(102, 165, 229, 0.452);
       &:before{
@@ -210,6 +210,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-top: calc(-1 * $mercury-orb / 2);
   margin-left: calc(-1 * $mercury-orb / 2);
   animation: orb revolution(87.5) linear infinite;
+  z-index: 100;
   &:before{
     height:$mercury-pl;
     width:$mercury-pl;
@@ -226,6 +227,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-top: calc(-1 * $venus-orb / 2);
   margin-left: calc(-1 * $venus-orb / 2);
   animation: orb revolution(224.7) linear infinite;
+  z-index: 99;
   &:before{
     height:$venus-pl;
     width:$venus-pl;
@@ -242,6 +244,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-top: calc(-1 * $earth-orb / 2);
   margin-left: calc(-1 * $earth-orb / 2);
   animation: orb revolution(365.2563) linear infinite;
+  z-index: 98;
   &:before{
     height:$earth-pl;
     width:$earth-pl;
@@ -270,6 +273,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-top: calc(-1 * $mars-orb / 2);
   margin-left: calc(-1 * $mars-orb / 2);
   animation: orb revolution(687) linear infinite;
+  z-index: 97;
   &:before{
     height:$mars-pl;
     width:$mars-pl;
@@ -286,6 +290,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-top: calc(-1 * $jupiter-orb / 2);
   margin-left: calc(-1 * $jupiter-orb / 2);
   animation: orb revolution(4331) linear infinite;
+  z-index: 96;
   &:before{
     height:$jupiter-pl;
     width:$jupiter-pl;
@@ -304,6 +309,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-top: calc(-1 * $saturn-orb / 2);
   margin-left: calc(-1 * $saturn-orb / 2);
   animation: orb revolution(10747) linear infinite;
+  z-index: 95;
   &:before{
     height:$saturn-pl;
     width:$saturn-pl;
@@ -336,6 +342,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-top: calc(-1 * $uranus-orb / 2);
   margin-left: calc(-1 * $uranus-orb / 2);
   animation: orb revolution(30589) linear infinite;
+  z-index: 94;
   &:before{
     height:$uranus-pl;
     width:$uranus-pl;
@@ -352,6 +359,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-top: calc(-1 * $neptune-orb / 2);
   margin-left: calc(-1 * $neptune-orb / 2);
   animation: orb revolution(59802) linear infinite;
+  z-index: 93;
   &:before{
     height:$neptune-pl;
     width:$neptune-pl;
@@ -362,6 +370,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   }
 }
 
+
 .asteroids-belt{
   opacity:.7;
   border-color: transparent !important;
@@ -371,6 +380,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   margin-left: calc(-1 * $asteroids-belt-orb / 2);
   animation: orb revolution(2191) linear infinite;
   overflow:hidden;
+  z-index: 90;
   &:before{
     top:50%;
     height:$asteroids-belt-pl;
@@ -419,3 +429,15 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
     transform:rotate(-360deg)
   }
 }
+
+.neptune-link {
+  display:inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.neptune-link:hover {
+  border-color: #e06317;
+
+}
+
