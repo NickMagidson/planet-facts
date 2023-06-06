@@ -145,6 +145,18 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
 //   font-size:.9em;
 // }
 
+@mixin orbit-circle {
+  &:not(.sun){
+    border: 1px solid rgba(102, 165, 229, 0.452);
+    &:before{
+      left:50%;
+      border-radius:100px;
+      content:"";
+      position:absolute;
+    }
+  }
+}
+
 .solar-syst{
   //Stars
   &:after{
@@ -173,8 +185,10 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
     left:50%;
     position:absolute;
     // z-index:999;
+
+    // Orbit circles and Asteroids
     &:not(.sun){
-      border: 1px solid rgba(102, 165, 229, 0.452);
+      // border: 1px solid rgba(102, 165, 229, 0.452);
       &:before{
         left:50%;
         border-radius:100px;
@@ -205,6 +219,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
 }
 
 .mercury{
+  @include orbit-circle;
   height: $mercury-orb;
   width: $mercury-orb;
   margin-top: calc(-1 * $mercury-orb / 2);
@@ -222,6 +237,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
 }
 
 .venus{
+  @include orbit-circle;
   height: $venus-orb;
   width: $venus-orb;
   margin-top: calc(-1 * $venus-orb / 2);
@@ -239,6 +255,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
 }
 
 .earth{
+  @include orbit-circle;
   height: $earth-orb;
   width: $earth-orb;
   margin-top: calc(-1 * $earth-orb / 2);
@@ -268,6 +285,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   }
 }
 .mars{
+  @include orbit-circle;
   height: $mars-orb;
   width: $mars-orb;
   margin-top: calc(-1 * $mars-orb / 2);
@@ -285,6 +303,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
 }
 
 .jupiter{
+  @include orbit-circle;
   height: $jupiter-orb;
   width: $jupiter-orb;
   margin-top: calc(-1 * $jupiter-orb / 2);
@@ -304,6 +323,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
 }
 
 .saturn{
+  @include orbit-circle;
   height: $saturn-orb;
   width: $saturn-orb;
   margin-top: calc(-1 * $saturn-orb / 2);
@@ -337,6 +357,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
 }
 
 .uranus{
+  @include orbit-circle;
   height: $uranus-orb;
   width: $uranus-orb;
   margin-top: calc(-1 * $uranus-orb / 2);
@@ -354,6 +375,7 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
 }
 
 .neptune{
+  @include orbit-circle;
   height: $neptune-orb;
   width: $neptune-orb;
   margin-top: calc(-1 * $neptune-orb / 2);
@@ -368,6 +390,17 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
     margin-top: calc(-1 * $neptune-pl / 2);
     margin-left: calc(-1 * $neptune-pl / 2);
   }
+}
+
+.mercury:hover,
+.venus:hover,
+.earth:hover,
+.mars:hover,
+.jupiter:hover,
+.saturn:hover,
+.uranus:hover,
+.neptune:hover {
+  border: 1px solid hsl(222,87%,56%);
 }
 
 
