@@ -40,7 +40,7 @@ Tools:
   - ~~Error: everytime I refresh on a route, it 404s~~
 
 4. Fixes
-  - Responsive edits
+  - ~~Responsive edits~~
     - ~~Planet image top margin for mobile~~
     - ~~Info grid margin fix~~
     - ~~Allow mobile button to function using right thumb~~
@@ -50,16 +50,16 @@ Tools:
 5. Homepage
   - ~~Create Homepage and adjust routing~~
   - ~~Route title to Homepage~~
-  - Create solar system component
+  - ~~Create solar system component~~
     - ~~Fix Sass deprecation warnings~~
     - ~~Fix Sun appearence~~
     - ~~Replace planets with asset planet SVGs~~
     - ~~Scale size for breakpoints~~
       - ~~Increase overall planet sizes (use pl variables)~~
       - ~~Increase solar system size (stretch orbits size through orb variables)~~
-    - Turn into page selections (The Neptune div is big, thus the only clickable link is that. This is a CSS situation.)
+    - ~~Turn into page selections (The Neptune div is big, thus the only clickable link is that. This is a CSS situation.)~~
       - ~~Change the z-indexes. Solar syst class zindex made the planets not hoverable~~
-      - Hover states and fade-ins (Styled components is a possible solution to this.)
+      - ~~Hover states and fade-ins (Styled components is a possible solution to this.)~~
 
 6. NASA APOD API
   - ~~Add route and link~~
