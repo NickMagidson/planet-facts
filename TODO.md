@@ -79,7 +79,7 @@ Tools:
   Higher Priority:
   - ~~When the summary changes happen, everything shifts from the text~~
   - ~~The grid block: have 2 slide in from left, other 2 slide in from right.~~
-  - Datepicker year selector is empty (hidden for now)
+  - ~~Datepicker year selector is empty (hidden for now)~~
   - One a giant screen, half the content gets cut in half (not centered)
     Options to try:
     - Absolute position with solar syst?
