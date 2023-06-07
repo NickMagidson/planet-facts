@@ -157,6 +157,15 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
   }
 }
 
+#space-container {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .solar-syst{
   //Stars
   &:after{
@@ -465,3 +474,25 @@ $asteroids-belt-orb : 300px; $asteroids-belt-pl: 210px;
     transform:rotate(-360deg)
   }
 }
+
+
+@media (min-width: 1920px) {
+  #space-container {
+    width: 50%;
+    height: 100%;
+  }
+
+  .solar-syst{
+    //Stars
+    &:after{
+
+      // Properties to experiment with
+      // top: 2px;
+      left: -50%;
+    }
+  }
+}
+
+// @media (min-width: 3840px) {
+
+// }
