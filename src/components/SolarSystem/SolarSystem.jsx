@@ -11,6 +11,7 @@ const SolarSystem = () => {
           {planets.map((planetName, index) => { 
             return ( 
               <Link 
+              key={index}
                 to={'/' + planetName.name} 
                 className={planetName.name + '-link'}>
                   <div 
