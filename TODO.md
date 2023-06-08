@@ -84,7 +84,7 @@ Tools:
     Options to try:
     - Absolute position with solar syst?
     - The widths in the Stars container (play around in the dev tools)
-    - Try wrapping in a div from the Homepage component / Homepage stylesheet
+    - ~~Try wrapping in a div from the Homepage component / Homepage stylesheet~~
 
 
 
