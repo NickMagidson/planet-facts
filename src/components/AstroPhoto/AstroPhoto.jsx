@@ -35,7 +35,10 @@ const AstroPhoto = () => {
     .then((json) => {
     setPhoto(json);
     setLoading(false)
-    });
+    })
+    // .catch(error => {
+    //   console.log('Sorry! There seems to be an error with the API :(')
+    // });
   }, []);
 
 
