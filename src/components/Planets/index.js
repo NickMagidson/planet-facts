@@ -1,3 +1,4 @@
+// From old version before planets were rendered dynamically with a single component
 export { default as Mercury } from './Planets/Mercury';
 export { default as Venus } from './Planets/Venus';
 export { default as Earth } from './Planets/Earth';

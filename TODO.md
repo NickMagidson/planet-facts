@@ -97,13 +97,12 @@ Low Priority Tasks
   - ~~Put planet components into folder for organization~~
   - ~~Impliment loading spinner~~
   - ~~Create mixins folder and import them into their seperate scss files.~~
+  - ~~Dynamically render all planet pages~~
+    - ~~Change Mercury component into SinglePlant~~
+    - ~~Then adjust the routing in App.jsx~~
   - ~~Fix MDB Grid "pre-render"~~
   - Fade in for summary changes
   - Render 2 of the planet images
-  - Wrap json fetching in useEffect()?
-  - Dynamically render all planet pages
-    - Change Mercury component into SinglePlant
-    - Then adjust the routing in App.jsx
   - Docker container?
   - Experiment with page zooming. On scroll you lose the scroll out? The header/nav also disappears (This is obscure)
 
