@@ -83,7 +83,7 @@ Tools:
   - Active states for overview buttons
     - Undo Bootstrap buttons?
     - Could try this using a hook
-  - Jupiter pushes content vertically
+  - Fix vertical content pushing
   - One a giant screen, half the content gets cut in half (not centered)
     Options to try:
     - Absolute position with solar syst?
