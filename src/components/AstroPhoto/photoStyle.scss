@@ -27,6 +27,7 @@
 .img,
 .video {
     width: 100%;
+    @include fade-in;
 }
 
 .video-container {

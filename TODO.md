@@ -101,6 +101,7 @@ Low Priority Tasks
     - ~~Change Mercury component into SinglePlant~~
     - ~~Then adjust the routing in App.jsx~~
   - ~~Fix MDB Grid "pre-render"~~
+  - ~~Add seperate Loader util component~~
   - Fade in for summary changes
   - Render 2 of the planet images
   - Docker container?

@@ -13,7 +13,6 @@ const Photo = (props) => {
             src={props.photo.url}
             title={props.photo.title}
             className="video"
-            allow="autoplay"
             allowFullScreen
           ></iframe>
           {/* <caption>This is a caption for the video</caption> */}
@@ -43,7 +42,7 @@ const Photo = (props) => {
             />
           </a>
         </div>
-        <div className="info-container">
+        <div className="info-container" key={1}>
           <h1 className="info-title">{props.photo.title}</h1>
           <h3 className="date">{props.photo.date}</h3>
           <p className="description">{props.photo.explanation}</p>

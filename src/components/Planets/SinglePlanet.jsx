@@ -38,7 +38,7 @@ const SinglePlanet = ({ planetIndex }) => {
         <section className="text-section">
           {/* IMG CONTAINER */}
           <div className="img-container m-0 w-100 d-flex justify-content-center align-items-center">
-            <img src={images.planet} className="planet-img" alt="planet" />
+            <img src={images.planet} className="planet-img" alt="planet" /> 
           </div>
           <div className="tablet-info">
             <div className="text-blurb">

@@ -47,7 +47,7 @@ const AstroPhoto = () => {
       <main id="main" style={{ overflow: 'scroll', height: '100vh' }}>
         <DateInput date={date} changeDate={changeDate} />
         <hr className="d-sm-none" style={{ borderTop: '1px solid #bbb', margin: '0' }}></hr>        
-        {loading ? <Loader /> : <Photo photo={photo} /> }
+        {loading ? <Loader /> : <Photo photo={photo} key={1} /> }
       </main>
     </>
   );
