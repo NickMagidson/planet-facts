@@ -205,7 +205,6 @@ html,
     font-size: 10px;
   }
   
-
   .nav-link:hover {
     background-color: #dadada83 !important;
   }
@@ -228,16 +227,62 @@ html,
     height: 66%;
   }
 
+  
+  .tablet-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
   .text-blurb {
     width: 50%; 
     flex-direction: column;
     justify-content: flex-start;
+    margin: 0;
   }
 
   .planet-name,
   .planet-desc,
   .planet-source {
     text-align: left !important;
+  }
+
+  .btn-group-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%; 
+    height: 200px;
+    @include fade-in;
+    animation-duration: 3s;
+    row-gap: 10%;
+  }
+
+  .planet-btn {
+    text-align: left;
+    border: #ffffff62 1px solid;
+    color: #fff;
+    @include slide-in-left;
+    animation-delay: .1s;
+    background-color: transparent;
+    width: 90%;    
+    padding: 5px;
+
+  }
+
+  // .planet-btn:active {
+  //   background-color: red !important;
+  // }
+
+  .planet-btn-text {
+    font-family: 'League Spartan';
+    letter-spacing: 2px;
+    margin: auto;
+    padding: .2rem;
+    font-size: .7rem;
+    text-transform: uppercase;
   }
 
   .planet-btn:hover {
@@ -252,27 +297,8 @@ html,
     display: none !important;
   }
 
-  .btn-group-2 {
-    display: inline-block !important;
-    max-width: 45%;
-    @include fade-in;
-    animation-duration: 3s;
-  }
 
-  .tablet-info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-  }
 
-  .planet-btn {
-    text-align: left;
-    border: #ffffff62 1px solid;
-    color: #fff;
-    @include slide-in-left;
-    animation-delay: .1s;
-  }
 
   //Active states
 
@@ -359,8 +385,8 @@ html,
     width: 60%;
   }
 
-  .btn-group {
-    width: 200%;
+  .btn-group-2 {
+    width: 50%;
   }
 
   .plant-btn-text {

@@ -81,9 +81,6 @@ Tools:
   - ~~The grid block: have 2 slide in from left, other 2 slide in from right.~~
   - ~~Datepicker year selector is empty (hidden for now)~~
   - Active states for overview buttons
-    - .planet-btn class only works for the p tags
-    - Undo Bootstrap buttons?
-    - Could try this using a hook
   - Fix vertical content pushing
   - One a giant screen, half the content gets cut in half (not centered)
     Options to try:

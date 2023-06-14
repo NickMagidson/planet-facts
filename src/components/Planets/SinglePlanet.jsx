@@ -19,7 +19,7 @@ const SinglePlanet = ({ planetIndex }) => {
       [structure.content]: images.internal,
       [geology.content]: images.geology
     };
-    
+
     setImage(imageMap[content]);
   };
 
@@ -57,17 +57,17 @@ const SinglePlanet = ({ planetIndex }) => {
             </div>
 
             {/* SUMMARY BUTTONS FOR TABLET RESPONSIVENESS */}
-            <MDBBtnGroup className="btn-group-2 w-100 bg-transparent d-none d-sm-block">
-              <MDBBtn className="planet-btn w-100 bg-transparent text-white-50" onClick={() => handleSummary(overview.content)}>
-                <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">01</span>Overview</p>
-              </MDBBtn>
-              <MDBBtn className="planet-btn w-100 bg-transparent text-white-50" onClick={() => handleSummary(structure.content)}>
-                <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">02</span>Structure</p>
-              </MDBBtn>
-              <MDBBtn className="planet-btn w-100 bg-transparent text-white-50" onClick={() => handleSummary(geology.content)}>
-                <p className="planet-btn m-0 p-2"><span className="number d-xs-none text-white-50">03</span>Geology</p>
-              </MDBBtn>
-            </MDBBtnGroup>  
+            <div className="btn-group-2 ">
+              <button className="planet-btn " onClick={() => handleSummary(overview.content)}>
+                <p className="planet-btn-text"><span className="number d-xs-none text-white-50">01</span>Overview</p>
+              </button>
+              <button className="planet-btn " onClick={() => handleSummary(structure.content)}>
+                <p className="planet-btn-text"><span className="number d-xs-none text-white-50">02</span>Structure</p>
+              </button>
+              <button className="planet-btn " onClick={() => handleSummary(geology.content)}>
+                <p className="planet-btn-text"><span className="number d-xs-none text-white-50">03</span>Geology</p>
+              </button>
+            </div>  
           </div>
         </section>
             <MDBRow className="info-grid p-4 h-0">
