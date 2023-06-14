@@ -103,8 +103,8 @@ Low Priority Tasks
     - ~~Then adjust the routing in App.jsx~~
   - ~~Fix MDB Grid "pre-render"~~
   - ~~Add seperate Loader util component~~
+  - ~~Render 2 of the planet images~~
   - Fade in for summary changes
-  - Render 2 of the planet images
   - Docker container?
   - Experiment with page zooming. On scroll you lose the scroll out? The header/nav also disappears (This is obscure)
 
