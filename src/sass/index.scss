@@ -79,10 +79,13 @@ html,
   letter-spacing: 2px;
 }
 
-// .btn-primary:active{
-//   background-color: red!important;
-// }
-
+.text-blurb {
+  @include flex-center;
+  flex-direction: column;
+  margin: auto;
+  height: 300px;
+  padding: 5px;
+}
 
 .planet-name {
   @include fade-in;
@@ -111,6 +114,7 @@ html,
   font-weight: 300; 
   width: 88%;
   text-align: center; 
+  margin-top: auto;
 }
 
 .planet-source > span {
@@ -136,11 +140,10 @@ html,
   display: none;
 }
 
-.text-blurb {
-  @include flex-center;
-  flex-direction: column;
-  margin: auto;
-  padding: 5px
+
+
+.btn-group-2 {
+  display: none
 }
 
 .info-grid {
@@ -218,16 +221,11 @@ html,
     @include flex-center;
   }
 
-  /* .planet-img {
-    min-width: 20%;
-    max-width: 40%;
-  } */
-
   .text-section {
     height: 66%;
   }
 
-  
+
   .tablet-info {
     display: flex;
     flex-direction: row;
@@ -237,6 +235,7 @@ html,
 
   .text-blurb {
     width: 50%; 
+    height: 280px;
     flex-direction: column;
     justify-content: flex-start;
     margin: 0;
@@ -246,6 +245,10 @@ html,
   .planet-desc,
   .planet-source {
     text-align: left !important;
+  }
+
+  .planet-source {
+    margin-top: auto;
   }
 
   .btn-group-2 {
@@ -272,10 +275,6 @@ html,
 
   }
 
-  // .planet-btn:active {
-  //   background-color: red !important;
-  // }
-
   .planet-btn-text {
     font-family: 'League Spartan';
     letter-spacing: 2px;
@@ -296,11 +295,6 @@ html,
   .btn-group {
     display: none !important;
   }
-
-
-
-
-  //Active states
 
   .planet-btn:nth-child(1) {animation-delay: .2s;}
   .planet-btn:nth-child(2) {animation-delay: .3s;}
@@ -383,6 +377,7 @@ html,
 
   .text-blurb {
     width: 60%;
+    height: 100%;
   }
 
   .btn-group-2 {
