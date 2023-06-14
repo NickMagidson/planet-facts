@@ -272,7 +272,16 @@ html,
     background-color: transparent;
     width: 90%;    
     padding: 5px;
+    transition: background-color .4s ease 0s;
+  }
 
+  .planet-btn:hover {
+    background-color: #dadada83;
+  }
+
+
+  .planet-btn:focus {
+    background-color: #419EBB;
   }
 
   .planet-btn-text {
@@ -284,9 +293,7 @@ html,
     text-transform: uppercase;
   }
 
-  .planet-btn:hover {
-    background-color: #419EBB;
-  }
+
   
   .btn-primary:hover {
     background-color: none !important;

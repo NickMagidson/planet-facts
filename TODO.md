@@ -80,8 +80,8 @@ Tools:
   - ~~When the summary changes happen, everything shifts from the text~~
   - ~~The grid block: have 2 slide in from left, other 2 slide in from right.~~
   - ~~Datepicker year selector is empty (hidden for now)~~
-  - Active states for overview buttons
-  - Fix vertical content pushing
+  - ~~Active states for overview buttons~~
+  - ~~Fix vertical content pushing~~
   - One a giant screen, half the content gets cut in half (not centered)
     Options to try:
     - Absolute position with solar syst?
