@@ -9,14 +9,23 @@ const SinglePlanet = ({ planetIndex }) => {
   const { overview, structure, geology, name, images, rotation, revolution, radius, temperature } = planet
 
   const [summary, setSummary] = useState(overview.content)
+  const [image, setImage] = useState(images.planet);
+
   const handleSummary = (content) => {
-    setSummary(content)    
-  }
+    setSummary(content);
+
+    const imageMap = {
+      [overview.content]: images.planet,
+      [structure.content]: images.internal,
+      [geology.content]: images.geology
+    };
+    
+    setImage(imageMap[content]);
+  };
 
   useEffect(() => {
     setPlanet(planets[planetIndex])
   }, [planetIndex])
-
 
   return (
     <>
@@ -38,7 +47,7 @@ const SinglePlanet = ({ planetIndex }) => {
         <section className="text-section">
           {/* IMG CONTAINER */}
           <div className="img-container m-0 w-100 d-flex justify-content-center align-items-center">
-            <img src={images.planet} className="planet-img" alt="planet" /> 
+            <img src={image} className="planet-img" alt="planet" /> 
           </div>
           <div className="tablet-info">
             <div className="text-blurb">
