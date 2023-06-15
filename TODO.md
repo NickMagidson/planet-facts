@@ -82,11 +82,7 @@ Tools:
   - ~~Datepicker year selector is empty (hidden for now)~~
   - ~~Active states for overview buttons~~
   - ~~Fix vertical content pushing~~
-  - One a giant screen, half the content gets cut in half (not centered)
-    Options to try:
-    - Absolute position with solar syst?
-    - The widths in the Stars container (play around in the dev tools)
-    - ~~Try wrapping in a div from the Homepage component / Homepage stylesheet~~
+  - Stars are not centered on the page
 
 
 
@@ -101,7 +97,6 @@ Low Priority Tasks
   - ~~Fix MDB Grid "pre-render"~~
   - ~~Add seperate Loader util component~~
   - ~~Render 2 of the planet images~~
-  - Fade in for summary changes
   - Docker container?
   - Experiment with page zooming. On scroll you lose the scroll out? The header/nav also disappears (This is obscure)
 
